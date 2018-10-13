@@ -3,14 +3,20 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
+//Routes
+import userRouter from '~/routes/userRouter';
+app.use('/app/models/users', userRouter);
 //app.use(cors);
-app.use(bodyParser.json()); // support json encoded bodies
+ // support json encoded bodies
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+//Cookies
 app.use(cookieParser());
 
-//Connect mongo
-const MongoClient = require('mongodb').MongoClient;
-const url = "mongodb://localhost:27017/aluafric";
+// Configuring the database
 
+import mongoose from 'mongoose';
+const db = mongoose.connect('mongodb://localhost:27017/aluafric');
 
 app.use(function(req, res, next) {
 
@@ -19,9 +25,8 @@ app.use(function(req, res, next) {
   res.header("'Access-Control-Allow-Credentials", "true");
   next();
 });
-console.log('BES');
 app.post('/try', function (req, res ) {
-	MongoClient.connect(url, function(err, db ) {
+  MongoClient.connect(url, function(err, db ) {
      if (err) throw err;
      db.collection("users").insertOne(req.body, function(err, res) {
        if (err) throw err;
@@ -36,4 +41,6 @@ app.post('/try', function (req, res ) {
 
 
 
-app.listen(3000);
+app.listen(3000, () => {
+    console.log("Alu Afric Server is listening on port 3000 ...");
+});
