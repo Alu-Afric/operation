@@ -1,0 +1,46 @@
+{
+  "name": "cocjs",
+  "version": "1.0.0",
+  "description": "COC.js is a javascipt assistant that includes a VUE components based on Element UI, using our own approach 'CSMA' we came out with a powerfull and unique structure to deal with every COC component in this package.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "build": "node_modules/.bin/webpack",
+    "watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamr-moussa/cocjs.git"
+  },
+  "keywords": [],
+  "author": "M-Amr Moussa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamr-moussa/cocjs/issues"
+  },
+  "homepage": "https://github.com/mamr-moussa/cocjs#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2017": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "vue": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-middleware": "^3.4.0",
+    "webpack-hot-middleware": "^2.24.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.33",
+    "nodemon": "^1.18.4"
+  }
+}

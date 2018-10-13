@@ -1,0 +1,1624 @@
+@font-face {
+  font-family: 'brands';
+  src:  url('fonts/brands.eot?5tikz5');
+  src:  url('fonts/brands.eot?5tikz5#iefix') format('embedded-opentype'),
+    url('fonts/brands.ttf?5tikz5') format('truetype'),
+    url('fonts/brands.woff?5tikz5') format('woff'),
+    url('fonts/brands.svg?5tikz5#brands') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="brands-"], [class*=" brands-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'brands' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.brands-500px-icon:before {
+  content: "\e900";
+  color: #0099e5;
+}
+.brands-aboutme-icon:before {
+  content: "\e901";
+  color: #00a98f;
+}
+.brands-acm-icon:before {
+  content: "\e902";
+  color: #0085ca;
+}
+.brands-addthis-icon:before {
+  content: "\e903";
+  color: #ff6550;
+}
+.brands-adobe-icon:before {
+  content: "\e904";
+  color: #f00;
+}
+.brands-adobeacrobatreader-icon:before {
+  content: "\e905";
+  color: #ee3f24;
+}
+.brands-adobeaftereffects-icon:before {
+  content: "\e906";
+  color: #d291ff;
+}
+.brands-adobedreamweaver-icon:before {
+  content: "\e907";
+  color: #35fa00;
+}
+.brands-adobeillustrator-icon:before {
+  content: "\e908";
+  color: #ff7c00;
+}
+.brands-adobeindesign-icon:before {
+  content: "\e909";
+  color: #fd3f93;
+}
+.brands-adobelightroom-icon:before {
+  content: "\e90a";
+  color: #add5ec;
+}
+.brands-adobephotoshop-icon:before {
+  content: "\e90b";
+  color: #00c8ff;
+}
+.brands-adobetypekit-icon:before {
+  content: "\e90c";
+  color: #87ec00;
+}
+.brands-airbnb-icon:before {
+  content: "\e90d";
+  color: #ff5a5f;
+}
+.brands-amazon-icon:before {
+  content: "\e90e";
+  color: #f90;
+}
+.brands-americanexpress-icon:before {
+  content: "\e90f";
+  color: #2e77bc;
+}
+.brands-android-icon:before {
+  content: "\e910";
+  color: #a4c639;
+}
+.brands-angellist-icon:before {
+  content: "\e911";
+}
+.brands-angular-icon:before {
+  content: "\e912";
+  color: #dd0031;
+}
+.brands-apple-icon:before {
+  content: "\e913";
+  color: #999;
+}
+.brands-applemusic-icon:before {
+  content: "\e914";
+}
+.brands-archlinux-icon:before {
+  content: "\e915";
+  color: #1793d1;
+}
+.brands-artstation-icon:before {
+  content: "\e916";
+  color: #13aff0;
+}
+.brands-asana-icon:before {
+  content: "\e917";
+}
+.brands-atlassian-icon:before {
+  content: "\e918";
+  color: #0052cc;
+}
+.brands-atom-icon:before {
+  content: "\e919";
+  color: #66595c;
+}
+.brands-aurelia-icon:before {
+  content: "\e91a";
+  color: #ed2b88;
+}
+.brands-auth0-icon:before {
+  content: "\e91b";
+  color: #eb5424;
+}
+.brands-automatic-icon:before {
+  content: "\e91c";
+  color: #7d8084;
+}
+.brands-aventrix-icon:before {
+  content: "\e91d";
+  color: #09d;
+}
+.brands-baidu-icon:before {
+  content: "\e91e";
+  color: #2319dc;
+}
+.brands-bandcamp-icon:before {
+  content: "\e91f";
+  color: #408294;
+}
+.brands-basecamp-icon:before {
+  content: "\e920";
+  color: #5ecc62;
+}
+.brands-bathasu-icon:before {
+  content: "\e921";
+  color: #00a3e0;
+}
+.brands-behance-icon:before {
+  content: "\e922";
+  color: #1769ff;
+}
+.brands-bigcartel-icon:before {
+  content: "\e923";
+}
+.brands-bing-icon:before {
+  content: "\e924";
+  color: #008373;
+}
+.brands-bitbucket-icon:before {
+  content: "\e925";
+  color: #0052cc;
+}
+.brands-bitcoin-icon:before {
+  content: "\e926";
+  color: #f7931a;
+}
+.brands-bitly-icon:before {
+  content: "\e927";
+  color: #ee6123;
+}
+.brands-blender-icon:before {
+  content: "\e928";
+  color: #f5792a;
+}
+.brands-blogger-icon:before {
+  content: "\e929";
+  color: #ff5722;
+}
+.brands-bootstrap-icon:before {
+  content: "\e92a";
+  color: #563d7c;
+}
+.brands-bower-icon:before {
+  content: "\e92b";
+  color: #ef5734;
+}
+.brands-brandai-icon:before {
+  content: "\e92c";
+  color: #0aa0ff;
+}
+.brands-buffer-icon:before {
+  content: "\e92d";
+  color: #168eea;
+}
+.brands-buzzfeed-icon:before {
+  content: "\e92e";
+  color: #e32;
+}
+.brands-cakephp-icon:before {
+  content: "\e92f";
+  color: #d33c43;
+}
+.brands-campaignmonitor-icon:before {
+  content: "\e930";
+  color: #509cf6;
+}
+.brands-circleci-icon:before {
+  content: "\e931";
+}
+.brands-cloudflare-icon:before {
+  content: "\e932";
+  color: #f38020;
+}
+.brands-codecademy-icon:before {
+  content: "\e933";
+  color: #1f4056;
+}
+.brands-codeforces-icon:before {
+  content: "\e934";
+  color: #1f8acb;
+}
+.brands-codeigniter-icon:before {
+  content: "\e935";
+  color: #ee4623;
+}
+.brands-codepen-icon:before {
+  content: "\e936";
+}
+.brands-coderwall-icon:before {
+  content: "\e937";
+  color: #3e8dcc;
+}
+.brands-codeschool-icon:before {
+  content: "\e938";
+  color: #4cadc0;
+}
+.brands-codewars-icon:before {
+  content: "\e939";
+  color: #ad2c27;
+}
+.brands-codio-icon:before {
+  content: "\e93a";
+  color: #4574e0;
+}
+.brands-compropago-icon:before {
+  content: "\e93b";
+  color: #00aaef;
+}
+.brands-conekta-icon:before {
+  content: "\e93c";
+  color: #414959;
+}
+.brands-coop-icon:before {
+  content: "\e93d";
+  color: #00b1e7;
+}
+.brands-coursera-icon:before {
+  content: "\e93e";
+  color: #2a73cc;
+}
+.brands-css3-icon:before {
+  content: "\e93f";
+  color: #1572b6;
+}
+.brands-csswizardry-icon:before {
+  content: "\e940";
+  color: #f43059;
+}
+.brands-dailymotion-icon:before {
+  content: "\e941";
+  color: #0066dc;
+}
+.brands-debian-icon:before {
+  content: "\e942";
+  color: #a81d33;
+}
+.brands-deezer-icon:before {
+  content: "\e943";
+  color: #00c7f2;
+}
+.brands-delicious-icon:before {
+  content: "\e944";
+  color: #39f;
+}
+.brands-designernews-icon:before {
+  content: "\e945";
+  color: #2d72d9;
+}
+.brands-deviantart-icon:before {
+  content: "\e946";
+  color: #05cc47;
+}
+.brands-devto-icon:before {
+  content: "\e947";
+}
+.brands-diaspora-icon:before {
+  content: "\e948";
+}
+.brands-digg-icon:before {
+  content: "\e949";
+}
+.brands-digitalocean-icon:before {
+  content: "\e94a";
+  color: #0080ff;
+}
+.brands-discord-icon:before {
+  content: "\e94b";
+  color: #7289da;
+}
+.brands-discourse-icon:before {
+  content: "\e94c";
+}
+.brands-discover-icon:before {
+  content: "\e94d";
+  color: #ff6000;
+}
+.brands-disqus-icon:before {
+  content: "\e94e";
+  color: #2e9fff;
+}
+.brands-disroot-icon:before {
+  content: "\e94f";
+  color: #50162d;
+}
+.brands-django-icon:before {
+  content: "\e950";
+}
+.brands-docker-icon:before {
+  content: "\e951";
+  color: #1488c6;
+}
+.brands-draugiemlv-icon:before {
+  content: "\e952";
+  color: #f60;
+}
+.brands-dribbble-icon:before {
+  content: "\e953";
+  color: #ea4c89;
+}
+.brands-dropbox-icon:before {
+  content: "\e954";
+  color: #0061ff;
+}
+.brands-drupal-icon:before {
+  content: "\e955";
+  color: #0678be;
+}
+.brands-ebay-icon:before {
+  content: "\e956";
+  color: #e53238;
+}
+.brands-ello-icon:before {
+  content: "\e957";
+}
+.brands-empirekred-icon:before {
+  content: "\e958";
+  color: #72be50;
+}
+.brands-ethereum-icon:before {
+  content: "\e959";
+}
+.brands-etsy-icon:before {
+  content: "\e95a";
+  color: #f16521;
+}
+.brands-eventbrite-icon:before {
+  content: "\e95b";
+  color: #f6682f;
+}
+.brands-eventstore-icon:before {
+  content: "\e95c";
+  color: #5ab552;
+}
+.brands-evernote-icon:before {
+  content: "\e95d";
+  color: #2dbd60;
+}
+.brands-everplaces-icon:before {
+  content: "\e95e";
+  color: #fa4b32;
+}
+.brands-facebook-icon:before {
+  content: "\e95f";
+  color: #3b5998;
+}
+.brands-fandango-icon:before {
+  content: "\e960";
+  color: #ff7300;
+}
+.brands-feathub-icon:before {
+  content: "\e961";
+  color: #9b9b9b;
+}
+.brands-feedly-icon:before {
+  content: "\e962";
+  color: #2bb24c;
+}
+.brands-firebase-icon:before {
+  content: "\e963";
+  color: #ffca28;
+}
+.brands-fitbit-icon:before {
+  content: "\e964";
+  color: #00b0b9;
+}
+.brands-flickr-icon:before {
+  content: "\e965";
+  color: #0063dc;
+}
+.brands-flipboard-icon:before {
+  content: "\e966";
+  color: #e12828;
+}
+.brands-fnac-icon:before {
+  content: "\e967";
+  color: #e1a925;
+}
+.brands-foursquare-icon:before {
+  content: "\e968";
+  color: #f94877;
+}
+.brands-freecodecamp-icon:before {
+  content: "\e969";
+  color: #006400;
+}
+.brands-garmin-icon:before {
+  content: "\e96a";
+  color: #007cc3;
+}
+.brands-gatsby-icon:before {
+  content: "\e96b";
+  color: #639;
+}
+.brands-gauges-icon:before {
+  content: "\e96c";
+  color: #2fa66a;
+}
+.brands-geocaching-icon:before {
+  content: "\e96d";
+  color: #00874d;
+}
+.brands-gerrit-icon:before {
+  content: "\e96e";
+  color: #eee;
+}
+.brands-ghost-icon:before {
+  content: "\e96f";
+  color: #738a94;
+}
+.brands-git-icon:before {
+  content: "\e970";
+  color: #f05032;
+}
+.brands-github-icon:before {
+  content: "\e971";
+}
+.brands-gitlab-icon:before {
+  content: "\e972";
+  color: #e24329;
+}
+.brands-gitter-icon:before {
+  content: "\e973";
+  color: #ed1965;
+}
+.brands-glassdoor-icon:before {
+  content: "\e974";
+  color: #0caa41;
+}
+.brands-gmail-icon:before {
+  content: "\e975";
+  color: #d14836;
+}
+.brands-gnu-icon:before {
+  content: "\e976";
+  color: #a42e2b;
+}
+.brands-gnusocial-icon:before {
+  content: "\e977";
+  color: #a22430;
+}
+.brands-goldenline-icon:before {
+  content: "\e978";
+  color: #fbbf00;
+}
+.brands-goodreads-icon:before {
+  content: "\e979";
+  color: #630;
+}
+.brands-google-icon:before {
+  content: "\e97a";
+  color: #4285f4;
+}
+.brands-googleallo-icon:before {
+  content: "\e97b";
+  color: #ecb842;
+}
+.brands-googleanalytics-icon:before {
+  content: "\e97c";
+  color: #ffc107;
+}
+.brands-googlechrome-icon:before {
+  content: "\e97d";
+  color: #4285f4;
+}
+.brands-googledrive-icon:before {
+  content: "\e97e";
+  color: #4386fc;
+}
+.brands-googlehangouts-icon:before {
+  content: "\e97f";
+  color: #0c9d58;
+}
+.brands-googlekeep-icon:before {
+  content: "\e980";
+  color: #fb0;
+}
+.brands-googleplay-icon:before {
+  content: "\e981";
+  color: #607d8b;
+}
+.brands-googleplus-icon:before {
+  content: "\e982";
+  color: #dc4e41;
+}
+.brands-govuk-icon:before {
+  content: "\e983";
+  color: #005ea5;
+}
+.brands-graphcool-icon:before {
+  content: "\e984";
+  color: #27ae60;
+}
+.brands-graphql-icon:before {
+  content: "\e985";
+  color: #e10098;
+}
+.brands-grav-icon:before {
+  content: "\e986";
+}
+.brands-gravatar-icon:before {
+  content: "\e987";
+  color: #1e8cbe;
+}
+.brands-gulp-icon:before {
+  content: "\e988";
+  color: #da4648;
+}
+.brands-gumroad-icon:before {
+  content: "\e989";
+  color: #36a9ae;
+}
+.brands-gumtree-icon:before {
+  content: "\e98a";
+  color: #72ef36;
+}
+.brands-hackerrank-icon:before {
+  content: "\e98b";
+  color: #2ec866;
+}
+.brands-hackster-icon:before {
+  content: "\e98c";
+  color: #1bacf7;
+}
+.brands-haskell-icon:before {
+  content: "\e98d";
+  color: #5d4f85;
+}
+.brands-hatenabookmark-icon:before {
+  content: "\e98e";
+  color: #00a4de;
+}
+.brands-heroku-icon:before {
+  content: "\e98f";
+  color: #430098;
+}
+.brands-hexo-icon:before {
+  content: "\e990";
+  color: #0e83cd;
+}
+.brands-highly-icon:before {
+  content: "\e991";
+  color: #ff3c00;
+}
+.brands-hipchat-icon:before {
+  content: "\e992";
+  color: #0052cc;
+}
+.brands-homify-icon:before {
+  content: "\e993";
+  color: #7dcda3;
+}
+.brands-hootsuite-icon:before {
+  content: "\e994";
+}
+.brands-houzz-icon:before {
+  content: "\e995";
+  color: #7ac142;
+}
+.brands-html5-icon:before {
+  content: "\e996";
+  color: #e34f26;
+}
+.brands-hulu-icon:before {
+  content: "\e997";
+  color: #3dbb3d;
+}
+.brands-humblebundle-icon:before {
+  content: "\e998";
+  color: #cc2929;
+}
+.brands-icq-icon:before {
+  content: "\e999";
+  color: #7ebd00;
+}
+.brands-ifixit-icon:before {
+  content: "\e99a";
+  color: #0071ce;
+}
+.brands-imdb-icon:before {
+  content: "\e99b";
+  color: #e6b91e;
+}
+.brands-inkscape-icon:before {
+  content: "\e99c";
+}
+.brands-instacart-icon:before {
+  content: "\e99d";
+  color: #43b02a;
+}
+.brands-instagram-icon:before {
+  content: "\e99e";
+  color: #e4405f;
+}
+.brands-instapaper-icon:before {
+  content: "\e99f";
+}
+.brands-intel-icon:before {
+  content: "\e9a0";
+  color: #0071c5;
+}
+.brands-intercom-icon:before {
+  content: "\e9a1";
+  color: #1f8ded;
+}
+.brands-invision-icon:before {
+  content: "\e9a2";
+  color: #f36;
+}
+.brands-javascript-icon:before {
+  content: "\e9a3";
+  color: #f7df1e;
+}
+.brands-jekyll-icon:before {
+  content: "\e9a4";
+  color: #c00;
+}
+.brands-jenkins-icon:before {
+  content: "\e9a5";
+  color: #d24939;
+}
+.brands-jira-icon:before {
+  content: "\e9a6";
+}
+.brands-joomla-icon:before {
+  content: "\e9a7";
+  color: #5091cd;
+}
+.brands-jquery-icon:before {
+  content: "\e9a8";
+  color: #0769ad;
+}
+.brands-jsfiddle-icon:before {
+  content: "\e9a9";
+  color: #4679a4;
+}
+.brands-json-icon:before {
+  content: "\e9aa";
+}
+.brands-justgiving-icon:before {
+  content: "\e9ab";
+  color: #ad29b6;
+}
+.brands-kaggle-icon:before {
+  content: "\e9ac";
+  color: #20beff;
+}
+.brands-keybase-icon:before {
+  content: "\e9ad";
+  color: #33a0ff;
+}
+.brands-keycdn-icon:before {
+  content: "\e9ae";
+  color: #3686be;
+}
+.brands-khanacademy-icon:before {
+  content: "\e9af";
+  color: #9db63b;
+}
+.brands-kickstarter-icon:before {
+  content: "\e9b0";
+  color: #2bde73;
+}
+.brands-kik-icon:before {
+  content: "\e9b1";
+  color: #82bc23;
+}
+.brands-kirby-icon:before {
+  content: "\e9b2";
+  color: #ff0100;
+}
+.brands-klout-icon:before {
+  content: "\e9b3";
+  color: #e44600;
+}
+.brands-known-icon:before {
+  content: "\e9b4";
+}
+.brands-koding-icon:before {
+  content: "\e9b5";
+  color: #00b057;
+}
+.brands-lanyrd-icon:before {
+  content: "\e9b6";
+  color: #3c80ca;
+}
+.brands-laravel-icon:before {
+  content: "\e9b7";
+  color: #e74430;
+}
+.brands-lastfm-icon:before {
+  content: "\e9b8";
+  color: #d51007;
+}
+.brands-launchpad-icon:before {
+  content: "\e9b9";
+  color: #f8c300;
+}
+.brands-letterboxd-icon:before {
+  content: "\e9ba";
+  color: #00d735;
+}
+.brands-line-icon:before {
+  content: "\e9bb";
+  color: #00c300;
+}
+.brands-linewebtoon-icon:before {
+  content: "\e9bc";
+  color: #00d564;
+}
+.brands-linkedin-icon:before {
+  content: "\e9bd";
+  color: #0077b5;
+}
+.brands-linux-icon:before {
+  content: "\e9be";
+  color: #fcc624;
+}
+.brands-linuxfoundation-icon:before {
+  content: "\e9bf";
+  color: #009bee;
+}
+.brands-livejournal-icon:before {
+  content: "\e9c0";
+  color: #00b0ea;
+}
+.brands-livestream-icon:before {
+  content: "\e9c1";
+  color: #cf202e;
+}
+.brands-macys-icon:before {
+  content: "\e9c2";
+  color: #e21a2c;
+}
+.brands-magento-icon:before {
+  content: "\e9c3";
+  color: #ee672f;
+}
+.brands-mailchimp-icon:before {
+  content: "\e9c4";
+  color: #239ab9;
+}
+.brands-mailru-icon:before {
+  content: "\e9c5";
+  color: #168de2;
+}
+.brands-makerbot-icon:before {
+  content: "\e9c6";
+  color: #ff1e0d;
+}
+.brands-mastercard-icon:before {
+  content: "\e9c7";
+  color: #eb001b;
+}
+.brands-mastodon-icon:before {
+  content: "\e9c8";
+  color: #189efc;
+}
+.brands-matternet-icon:before {
+  content: "\e9c9";
+}
+.brands-mediatemple-icon:before {
+  content: "\e9ca";
+}
+.brands-medium-icon:before {
+  content: "\e9cb";
+}
+.brands-meetup-icon:before {
+  content: "\e9cc";
+  color: #ed1c40;
+}
+.brands-messenger-icon:before {
+  content: "\e9cd";
+  color: #0084ff;
+}
+.brands-meteor-icon:before {
+  content: "\e9ce";
+  color: #de4f4f;
+}
+.brands-microblog-icon:before {
+  content: "\e9cf";
+  color: #fd8308;
+}
+.brands-microgenetics-icon:before {
+  content: "\e9d0";
+  color: #f00;
+}
+.brands-microsoft-icon:before {
+  content: "\e9d1";
+  color: #666;
+}
+.brands-microsoftaccess-icon:before {
+  content: "\e9d2";
+  color: #ba141a;
+}
+.brands-microsoftexcel-icon:before {
+  content: "\e9d3";
+  color: #217346;
+}
+.brands-microsoftonenote-icon:before {
+  content: "\e9d4";
+  color: #80397b;
+}
+.brands-microsoftoutlook-icon:before {
+  content: "\e9d5";
+  color: #0072c6;
+}
+.brands-microsoftpowerpoint-icon:before {
+  content: "\e9d6";
+  color: #d24726;
+}
+.brands-microsoftword-icon:before {
+  content: "\e9d7";
+  color: #2b579a;
+}
+.brands-minutemailer-icon:before {
+  content: "\e9d8";
+  color: #3abfe6;
+}
+.brands-mixcloud-icon:before {
+  content: "\e9d9";
+  color: #314359;
+}
+.brands-monero-icon:before {
+  content: "\e9da";
+  color: #f60;
+}
+.brands-mongodb-icon:before {
+  content: "\e9db";
+  color: #47a248;
+}
+.brands-monkeytie-icon:before {
+  content: "\e9dc";
+  color: #ffc619;
+}
+.brands-monogram-icon:before {
+  content: "\e9dd";
+  color: #fdb22a;
+}
+.brands-moo-icon:before {
+  content: "\e9de";
+  color: #00945e;
+}
+.brands-mozilla-icon:before {
+  content: "\e9df";
+}
+.brands-mozillafirefox-icon:before {
+  content: "\e9e0";
+  color: #ff9400;
+}
+.brands-myspace-icon:before {
+  content: "\e9e1";
+}
+.brands-mysql-icon:before {
+  content: "\e9e2";
+  color: #4479a1;
+}
+.brands-neo4j-icon:before {
+  content: "\e9e3";
+  color: #008cc1;
+}
+.brands-netflix-icon:before {
+  content: "\e9e4";
+  color: #e50914;
+}
+.brands-netlify-icon:before {
+  content: "\e9e5";
+  color: #00c7b7;
+}
+.brands-nextdoor-icon:before {
+  content: "\e9e6";
+  color: #00b246;
+}
+.brands-nginx-icon:before {
+  content: "\e9e7";
+  color: #269539;
+}
+.brands-nintendo-icon:before {
+  content: "\e9e8";
+  color: #8f8f8f;
+}
+.brands-nintendogamecube-icon:before {
+  content: "\e9e9";
+  color: #6a5fbb;
+}
+.brands-nintendoswitch-icon:before {
+  content: "\e9ea";
+  color: #e60012;
+}
+.brands-nodejs-icon:before {
+  content: "\e9eb";
+  color: #393;
+}
+.brands-nodemon-icon:before {
+  content: "\e9ec";
+  color: #76d04b;
+}
+.brands-npm-icon:before {
+  content: "\e9ed";
+  color: #cb3837;
+}
+.brands-nucleo-icon:before {
+  content: "\e9ee";
+  color: #766dcc;
+}
+.brands-oculus-icon:before {
+  content: "\e9ef";
+}
+.brands-odnoklassniki-icon:before {
+  content: "\e9f0";
+  color: #f4731c;
+}
+.brands-onedrive-icon:before {
+  content: "\e9f1";
+  color: #094ab2;
+}
+.brands-opera-icon:before {
+  content: "\e9f2";
+  color: #ff1b2d;
+}
+.brands-origin-icon:before {
+  content: "\e9f3";
+  color: #f56c2d;
+}
+.brands-overcast-icon:before {
+  content: "\e9f4";
+  color: #fc7e0f;
+}
+.brands-ovh-icon:before {
+  content: "\e9f5";
+  color: #123f6d;
+}
+.brands-pagekit-icon:before {
+  content: "\e9f6";
+}
+.brands-pandora-icon:before {
+  content: "\e9f7";
+  color: #005483;
+}
+.brands-patreon-icon:before {
+  content: "\e9f8";
+  color: #f96854;
+}
+.brands-paypal-icon:before {
+  content: "\e9f9";
+  color: #00457c;
+}
+.brands-periscope-icon:before {
+  content: "\e9fa";
+  color: #40a4c4;
+}
+.brands-php-icon:before {
+  content: "\e9fb";
+  color: #777bb4;
+}
+.brands-picartotv-icon:before {
+  content: "\e9fc";
+  color: #1da456;
+}
+.brands-pinboard-icon:before {
+  content: "\e9fd";
+  color: #00f;
+}
+.brands-pingdom-icon:before {
+  content: "\e9fe";
+  color: #fff000;
+}
+.brands-pingup-icon:before {
+  content: "\e9ff";
+  color: #00b1ab;
+}
+.brands-pinterest-icon:before {
+  content: "\ea00";
+  color: #bd081c;
+}
+.brands-plangrid-icon:before {
+  content: "\ea01";
+  color: #0085de;
+}
+.brands-playerme-icon:before {
+  content: "\ea02";
+  color: #c0379a;
+}
+.brands-playstation-icon:before {
+  content: "\ea03";
+  color: #003791;
+}
+.brands-playstation3-icon:before {
+  content: "\ea04";
+  color: #003791;
+}
+.brands-playstation4-icon:before {
+  content: "\ea05";
+  color: #003791;
+}
+.brands-plex-icon:before {
+  content: "\ea06";
+  color: #e5a00d;
+}
+.brands-pluralsight-icon:before {
+  content: "\ea07";
+  color: #f15b2a;
+}
+.brands-plurk-icon:before {
+  content: "\ea08";
+  color: #e9443d;
+}
+.brands-pocket-icon:before {
+  content: "\ea09";
+  color: #ef3f56;
+}
+.brands-podcasts-icon:before {
+  content: "\ea0a";
+  color: #93c;
+}
+.brands-prismic-icon:before {
+  content: "\ea0b";
+  color: #484a7a;
+}
+.brands-processwire-icon:before {
+  content: "\ea0c";
+  color: #ef145f;
+}
+.brands-producthunt-icon:before {
+  content: "\ea0d";
+  color: #da552f;
+}
+.brands-protoio-icon:before {
+  content: "\ea0e";
+  color: #34a7c1;
+}
+.brands-protonmail-icon:before {
+  content: "\ea0f";
+  color: #8b89cc;
+}
+.brands-python-icon:before {
+  content: "\ea10";
+  color: #3776ab;
+}
+.brands-qiita-icon:before {
+  content: "\ea11";
+  color: #55c500;
+}
+.brands-quantcast-icon:before {
+  content: "\ea12";
+}
+.brands-quantopian-icon:before {
+  content: "\ea13";
+  color: #c50000;
+}
+.brands-quora-icon:before {
+  content: "\ea14";
+  color: #b92b27;
+}
+.brands-rails-icon:before {
+  content: "\ea15";
+  color: #c00;
+}
+.brands-raspberrypi-icon:before {
+  content: "\ea16";
+  color: #c51a4a;
+}
+.brands-react-icon:before {
+  content: "\ea17";
+  color: #61dafb;
+}
+.brands-readthedocs-icon:before {
+  content: "\ea18";
+  color: #8ca1af;
+}
+.brands-reddit-icon:before {
+  content: "\ea19";
+  color: #ff4500;
+}
+.brands-redis-icon:before {
+  content: "\ea1a";
+  color: #d82c20;
+}
+.brands-redux-icon:before {
+  content: "\ea1b";
+  color: #764abc;
+}
+.brands-reverbnation-icon:before {
+  content: "\ea1c";
+  color: #e43526;
+}
+.brands-roots-icon:before {
+  content: "\ea1d";
+  color: #27ae60;
+}
+.brands-rss-icon:before {
+  content: "\ea1e";
+  color: #ffa500;
+}
+.brands-ruby-icon:before {
+  content: "\ea1f";
+  color: #cc342d;
+}
+.brands-runkeeper-icon:before {
+  content: "\ea20";
+  color: #2dc9d7;
+}
+.brands-rust-icon:before {
+  content: "\ea21";
+}
+.brands-salesforce-icon:before {
+  content: "\ea22";
+  color: #00a1e0;
+}
+.brands-sass-icon:before {
+  content: "\ea23";
+  color: #c69;
+}
+.brands-saucelabs-icon:before {
+  content: "\ea24";
+  color: #e2231a;
+}
+.brands-scribd-icon:before {
+  content: "\ea25";
+  color: #1a7bba;
+}
+.brands-sega-icon:before {
+  content: "\ea26";
+  color: #0089cf;
+}
+.brands-sellfy-icon:before {
+  content: "\ea27";
+  color: #21b352;
+}
+.brands-sentry-icon:before {
+  content: "\ea28";
+  color: #fb4226;
+}
+.brands-serverfault-icon:before {
+  content: "\ea29";
+  color: #e7282d;
+}
+.brands-shazam-icon:before {
+  content: "\ea2a";
+  color: #08f;
+}
+.brands-shopify-icon:before {
+  content: "\ea2b";
+  color: #7ab55c;
+}
+.brands-signal-icon:before {
+  content: "\ea2c";
+  color: #2592e9;
+}
+.brands-simpleicons-icon:before {
+  content: "\ea2d";
+}
+.brands-sinaweibo-icon:before {
+  content: "\ea2e";
+  color: #e6162d;
+}
+.brands-sitepoint-icon:before {
+  content: "\ea2f";
+  color: #258aaf;
+}
+.brands-skyliner-icon:before {
+  content: "\ea30";
+  color: #2fcea0;
+}
+.brands-skype-icon:before {
+  content: "\ea31";
+  color: #00aff0;
+}
+.brands-slack-icon:before {
+  content: "\ea32";
+  color: #56b68b;
+}
+.brands-slashdot-icon:before {
+  content: "\ea33";
+  color: #026664;
+}
+.brands-slickpic-icon:before {
+  content: "\ea34";
+  color: #ff880f;
+}
+.brands-slides-icon:before {
+  content: "\ea35";
+  color: #e4637c;
+}
+.brands-smashingmagazine-icon:before {
+  content: "\ea36";
+  color: #e85c33;
+}
+.brands-snapchat-icon:before {
+  content: "\ea37";
+  color: #fffc00;
+}
+.brands-sogou-icon:before {
+  content: "\ea38";
+  color: #fb6022;
+}
+.brands-songkick-icon:before {
+  content: "\ea39";
+  color: #f80046;
+}
+.brands-soundcloud-icon:before {
+  content: "\ea3a";
+  color: #f30;
+}
+.brands-sourceforge-icon:before {
+  content: "\ea3b";
+  color: #535353;
+}
+.brands-sparkpost-icon:before {
+  content: "\ea3c";
+  color: #fa6423;
+}
+.brands-speakerdeck-icon:before {
+  content: "\ea3d";
+  color: #396;
+}
+.brands-spotify-icon:before {
+  content: "\ea3e";
+  color: #1ed760;
+}
+.brands-spotlight-icon:before {
+  content: "\ea3f";
+  color: #352a71;
+}
+.brands-spreaker-icon:before {
+  content: "\ea40";
+  color: #f5c300;
+}
+.brands-squarespace-icon:before {
+  content: "\ea41";
+}
+.brands-stackexchange-icon:before {
+  content: "\ea42";
+  color: #1e5397;
+}
+.brands-stackoverflow-icon:before {
+  content: "\ea43";
+  color: #fe7a16;
+}
+.brands-statamic-icon:before {
+  content: "\ea44";
+}
+.brands-staticman-icon:before {
+  content: "\ea45";
+}
+.brands-steam-icon:before {
+  content: "\ea46";
+}
+.brands-steem-icon:before {
+  content: "\ea47";
+  color: #4ba2f2;
+}
+.brands-stitcher-icon:before {
+  content: "\ea48";
+}
+.brands-storify-icon:before {
+  content: "\ea49";
+  color: #3a98d9;
+}
+.brands-strava-icon:before {
+  content: "\ea4a";
+  color: #fc4c02;
+}
+.brands-stripe-icon:before {
+  content: "\ea4b";
+  color: #008cdd;
+}
+.brands-stubhub-icon:before {
+  content: "\ea4c";
+  color: #003168;
+}
+.brands-stumbleupon-icon:before {
+  content: "\ea4d";
+  color: #eb4924;
+}
+.brands-styleshare-icon:before {
+  content: "\ea4e";
+}
+.brands-stylus-icon:before {
+  content: "\ea4f";
+}
+.brands-sublimetext-icon:before {
+  content: "\ea50";
+}
+.brands-subversion-icon:before {
+  content: "\ea51";
+  color: #809cc9;
+}
+.brands-superuser-icon:before {
+  content: "\ea52";
+  color: #2eace3;
+}
+.brands-swarm-icon:before {
+  content: "\ea53";
+  color: #ffa633;
+}
+.brands-swift-icon:before {
+  content: "\ea54";
+  color: #fa7343;
+}
+.brands-symfony-icon:before {
+  content: "\ea55";
+}
+.brands-tapas-icon:before {
+  content: "\ea56";
+  color: #ffce00;
+}
+.brands-ted-icon:before {
+  content: "\ea57";
+  color: #e62b1e;
+}
+.brands-teespring-icon:before {
+  content: "\ea58";
+  color: #39ace6;
+}
+.brands-telegram-icon:before {
+  content: "\ea59";
+  color: #2ca5e0;
+}
+.brands-tencentqq-icon:before {
+  content: "\ea5a";
+  color: #12b7f5;
+}
+.brands-tesla-icon:before {
+  content: "\ea5b";
+  color: #c00;
+}
+.brands-themighty-icon:before {
+  content: "\ea5c";
+  color: #d0072a;
+}
+.brands-tinder-icon:before {
+  content: "\ea5d";
+  color: #ff6b6b;
+}
+.brands-toggl-icon:before {
+  content: "\ea5e";
+  color: #e01b22;
+}
+.brands-topcoder-icon:before {
+  content: "\ea5f";
+  color: #29a8e0;
+}
+.brands-toptal-icon:before {
+  content: "\ea60";
+  color: #3863a0;
+}
+.brands-trakt-icon:before {
+  content: "\ea61";
+  color: #ed1c24;
+}
+.brands-travisci-icon:before {
+  content: "\ea62";
+  color: #39a85b;
+}
+.brands-treehouse-icon:before {
+  content: "\ea63";
+  color: #5fcf80;
+}
+.brands-trello-icon:before {
+  content: "\ea64";
+  color: #0079bf;
+}
+.brands-tripadvisor-icon:before {
+  content: "\ea65";
+  color: #00af87;
+}
+.brands-trulia-icon:before {
+  content: "\ea66";
+  color: #53b50a;
+}
+.brands-tumblr-icon:before {
+  content: "\ea67";
+  color: #36465d;
+}
+.brands-twilio-icon:before {
+  content: "\ea68";
+  color: #f22f46;
+}
+.brands-twitch-icon:before {
+  content: "\ea69";
+  color: #6441a4;
+}
+.brands-twitter-icon:before {
+  content: "\ea6a";
+  color: #1da1f2;
+}
+.brands-twoo-icon:before {
+  content: "\ea6b";
+  color: #ff7102;
+}
+.brands-uber-icon:before {
+  content: "\ea6c";
+}
+.brands-ubuntu-icon:before {
+  content: "\ea6d";
+  color: #e95420;
+}
+.brands-udacity-icon:before {
+  content: "\ea6e";
+  color: #01b3e3;
+}
+.brands-uikit-icon:before {
+  content: "\ea6f";
+  color: #2396f3;
+}
+.brands-umbraco-icon:before {
+  content: "\ea70";
+  color: #00bec1;
+}
+.brands-unsplash-icon:before {
+  content: "\ea71";
+}
+.brands-untappd-icon:before {
+  content: "\ea72";
+  color: #ffc000;
+}
+.brands-upwork-icon:before {
+  content: "\ea73";
+  color: #6fda44;
+}
+.brands-viadeo-icon:before {
+  content: "\ea74";
+  color: #f88d2d;
+}
+.brands-viber-icon:before {
+  content: "\ea75";
+  color: #665cac;
+}
+.brands-vim-icon:before {
+  content: "\ea76";
+  color: #019733;
+}
+.brands-vimeo-icon:before {
+  content: "\ea77";
+  color: #1ab7ea;
+}
+.brands-vine-icon:before {
+  content: "\ea78";
+  color: #11b48a;
+}
+.brands-virb-icon:before {
+  content: "\ea79";
+  color: #0093da;
+}
+.brands-visa-icon:before {
+  content: "\ea7a";
+  color: #142787;
+}
+.brands-visualstudiocode-icon:before {
+  content: "\ea7b";
+  color: #0271bc;
+}
+.brands-vk-icon:before {
+  content: "\ea7c";
+  color: #6383a8;
+}
+.brands-vsco-icon:before {
+  content: "\ea7d";
+}
+.brands-vuejs-icon:before {
+  content: "\ea7e";
+  color: #4fc08d;
+}
+.brands-wattpad-icon:before {
+  content: "\ea7f";
+  color: #f68d12;
+}
+.brands-webpack-icon:before {
+  content: "\ea80";
+  color: #8dd6f9;
+}
+.brands-webstorm-icon:before {
+  content: "\ea81";
+  color: #00cdd7;
+}
+.brands-wechat-icon:before {
+  content: "\ea82";
+  color: #7bb32e;
+}
+.brands-whatsapp-icon:before {
+  content: "\ea83";
+  color: #25d366;
+}
+.brands-wheniwork-icon:before {
+  content: "\ea84";
+  color: #51a33d;
+}
+.brands-wii-icon:before {
+  content: "\ea85";
+  color: #8b8b8b;
+}
+.brands-wiiu-icon:before {
+  content: "\ea86";
+  color: #8b8b8b;
+}
+.brands-wikipedia-icon:before {
+  content: "\ea87";
+}
+.brands-windows-icon:before {
+  content: "\ea88";
+  color: #0078d6;
+}
+.brands-wire-icon:before {
+  content: "\ea89";
+}
+.brands-wix-icon:before {
+  content: "\ea8a";
+  color: #faad4d;
+}
+.brands-wordpress-icon:before {
+  content: "\ea8b";
+  color: #21759b;
+}
+.brands-wpengine-icon:before {
+  content: "\ea8c";
+  color: #40bac8;
+}
+.brands-xbox-icon:before {
+  content: "\ea8d";
+  color: #107c10;
+}
+.brands-xcode-icon:before {
+  content: "\ea8e";
+  color: #1575f9;
+}
+.brands-xero-icon:before {
+  content: "\ea8f";
+  color: #13b5ea;
+}
+.brands-xing-icon:before {
+  content: "\ea90";
+  color: #006567;
+}
+.brands-yahoo-icon:before {
+  content: "\ea91";
+  color: #409;
+}
+.brands-yammer-icon:before {
+  content: "\ea92";
+  color: #0072c6;
+}
+.brands-yandex-icon:before {
+  content: "\ea93";
+  color: #f00;
+}
+.brands-ycombinator-icon:before {
+  content: "\ea94";
+  color: #f0652f;
+}
+.brands-yelp-icon:before {
+  content: "\ea95";
+  color: #d32323;
+}
+.brands-youtube-icon:before {
+  content: "\ea96";
+  color: #f00;
+}
+.brands-zapier-icon:before {
+  content: "\ea97";
+  color: #ff4a00;
+}
+.brands-zendesk-icon:before {
+  content: "\ea98";
+}
+.brands-zerply-icon:before {
+  content: "\ea99";
+  color: #9dbc7a;
+}
+.brands-zillow-icon:before {
+  content: "\ea9a";
+  color: #0074e4;
+}

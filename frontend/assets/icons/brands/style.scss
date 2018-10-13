@@ -1,0 +1,2449 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5tikz5');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5tikz5#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?5tikz5') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?5tikz5') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?5tikz5##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="brands-"], [class*=" brands-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.brands-500px-icon {
+  &:before {
+    content: $brands-500px-icon;     
+    color: #0099e5;
+  }
+}
+.brands-aboutme-icon {
+  &:before {
+    content: $brands-aboutme-icon;     
+    color: #00a98f;
+  }
+}
+.brands-acm-icon {
+  &:before {
+    content: $brands-acm-icon;     
+    color: #0085ca;
+  }
+}
+.brands-addthis-icon {
+  &:before {
+    content: $brands-addthis-icon;     
+    color: #ff6550;
+  }
+}
+.brands-adobe-icon {
+  &:before {
+    content: $brands-adobe-icon;     
+    color: #f00;
+  }
+}
+.brands-adobeacrobatreader-icon {
+  &:before {
+    content: $brands-adobeacrobatreader-icon;     
+    color: #ee3f24;
+  }
+}
+.brands-adobeaftereffects-icon {
+  &:before {
+    content: $brands-adobeaftereffects-icon;     
+    color: #d291ff;
+  }
+}
+.brands-adobedreamweaver-icon {
+  &:before {
+    content: $brands-adobedreamweaver-icon;     
+    color: #35fa00;
+  }
+}
+.brands-adobeillustrator-icon {
+  &:before {
+    content: $brands-adobeillustrator-icon;     
+    color: #ff7c00;
+  }
+}
+.brands-adobeindesign-icon {
+  &:before {
+    content: $brands-adobeindesign-icon;     
+    color: #fd3f93;
+  }
+}
+.brands-adobelightroom-icon {
+  &:before {
+    content: $brands-adobelightroom-icon;     
+    color: #add5ec;
+  }
+}
+.brands-adobephotoshop-icon {
+  &:before {
+    content: $brands-adobephotoshop-icon;     
+    color: #00c8ff;
+  }
+}
+.brands-adobetypekit-icon {
+  &:before {
+    content: $brands-adobetypekit-icon;     
+    color: #87ec00;
+  }
+}
+.brands-airbnb-icon {
+  &:before {
+    content: $brands-airbnb-icon;     
+    color: #ff5a5f;
+  }
+}
+.brands-amazon-icon {
+  &:before {
+    content: $brands-amazon-icon;     
+    color: #f90;
+  }
+}
+.brands-americanexpress-icon {
+  &:before {
+    content: $brands-americanexpress-icon;     
+    color: #2e77bc;
+  }
+}
+.brands-android-icon {
+  &:before {
+    content: $brands-android-icon;     
+    color: #a4c639;
+  }
+}
+.brands-angellist-icon {
+  &:before {
+    content: $brands-angellist-icon; 
+  }
+}
+.brands-angular-icon {
+  &:before {
+    content: $brands-angular-icon;     
+    color: #dd0031;
+  }
+}
+.brands-apple-icon {
+  &:before {
+    content: $brands-apple-icon;     
+    color: #999;
+  }
+}
+.brands-applemusic-icon {
+  &:before {
+    content: $brands-applemusic-icon; 
+  }
+}
+.brands-archlinux-icon {
+  &:before {
+    content: $brands-archlinux-icon;     
+    color: #1793d1;
+  }
+}
+.brands-artstation-icon {
+  &:before {
+    content: $brands-artstation-icon;     
+    color: #13aff0;
+  }
+}
+.brands-asana-icon {
+  &:before {
+    content: $brands-asana-icon; 
+  }
+}
+.brands-atlassian-icon {
+  &:before {
+    content: $brands-atlassian-icon;     
+    color: #0052cc;
+  }
+}
+.brands-atom-icon {
+  &:before {
+    content: $brands-atom-icon;     
+    color: #66595c;
+  }
+}
+.brands-aurelia-icon {
+  &:before {
+    content: $brands-aurelia-icon;     
+    color: #ed2b88;
+  }
+}
+.brands-auth0-icon {
+  &:before {
+    content: $brands-auth0-icon;     
+    color: #eb5424;
+  }
+}
+.brands-automatic-icon {
+  &:before {
+    content: $brands-automatic-icon;     
+    color: #7d8084;
+  }
+}
+.brands-aventrix-icon {
+  &:before {
+    content: $brands-aventrix-icon;     
+    color: #09d;
+  }
+}
+.brands-baidu-icon {
+  &:before {
+    content: $brands-baidu-icon;     
+    color: #2319dc;
+  }
+}
+.brands-bandcamp-icon {
+  &:before {
+    content: $brands-bandcamp-icon;     
+    color: #408294;
+  }
+}
+.brands-basecamp-icon {
+  &:before {
+    content: $brands-basecamp-icon;     
+    color: #5ecc62;
+  }
+}
+.brands-bathasu-icon {
+  &:before {
+    content: $brands-bathasu-icon;     
+    color: #00a3e0;
+  }
+}
+.brands-behance-icon {
+  &:before {
+    content: $brands-behance-icon;     
+    color: #1769ff;
+  }
+}
+.brands-bigcartel-icon {
+  &:before {
+    content: $brands-bigcartel-icon; 
+  }
+}
+.brands-bing-icon {
+  &:before {
+    content: $brands-bing-icon;     
+    color: #008373;
+  }
+}
+.brands-bitbucket-icon {
+  &:before {
+    content: $brands-bitbucket-icon;     
+    color: #0052cc;
+  }
+}
+.brands-bitcoin-icon {
+  &:before {
+    content: $brands-bitcoin-icon;     
+    color: #f7931a;
+  }
+}
+.brands-bitly-icon {
+  &:before {
+    content: $brands-bitly-icon;     
+    color: #ee6123;
+  }
+}
+.brands-blender-icon {
+  &:before {
+    content: $brands-blender-icon;     
+    color: #f5792a;
+  }
+}
+.brands-blogger-icon {
+  &:before {
+    content: $brands-blogger-icon;     
+    color: #ff5722;
+  }
+}
+.brands-bootstrap-icon {
+  &:before {
+    content: $brands-bootstrap-icon;     
+    color: #563d7c;
+  }
+}
+.brands-bower-icon {
+  &:before {
+    content: $brands-bower-icon;     
+    color: #ef5734;
+  }
+}
+.brands-brandai-icon {
+  &:before {
+    content: $brands-brandai-icon;     
+    color: #0aa0ff;
+  }
+}
+.brands-buffer-icon {
+  &:before {
+    content: $brands-buffer-icon;     
+    color: #168eea;
+  }
+}
+.brands-buzzfeed-icon {
+  &:before {
+    content: $brands-buzzfeed-icon;     
+    color: #e32;
+  }
+}
+.brands-cakephp-icon {
+  &:before {
+    content: $brands-cakephp-icon;     
+    color: #d33c43;
+  }
+}
+.brands-campaignmonitor-icon {
+  &:before {
+    content: $brands-campaignmonitor-icon;     
+    color: #509cf6;
+  }
+}
+.brands-circleci-icon {
+  &:before {
+    content: $brands-circleci-icon; 
+  }
+}
+.brands-cloudflare-icon {
+  &:before {
+    content: $brands-cloudflare-icon;     
+    color: #f38020;
+  }
+}
+.brands-codecademy-icon {
+  &:before {
+    content: $brands-codecademy-icon;     
+    color: #1f4056;
+  }
+}
+.brands-codeforces-icon {
+  &:before {
+    content: $brands-codeforces-icon;     
+    color: #1f8acb;
+  }
+}
+.brands-codeigniter-icon {
+  &:before {
+    content: $brands-codeigniter-icon;     
+    color: #ee4623;
+  }
+}
+.brands-codepen-icon {
+  &:before {
+    content: $brands-codepen-icon; 
+  }
+}
+.brands-coderwall-icon {
+  &:before {
+    content: $brands-coderwall-icon;     
+    color: #3e8dcc;
+  }
+}
+.brands-codeschool-icon {
+  &:before {
+    content: $brands-codeschool-icon;     
+    color: #4cadc0;
+  }
+}
+.brands-codewars-icon {
+  &:before {
+    content: $brands-codewars-icon;     
+    color: #ad2c27;
+  }
+}
+.brands-codio-icon {
+  &:before {
+    content: $brands-codio-icon;     
+    color: #4574e0;
+  }
+}
+.brands-compropago-icon {
+  &:before {
+    content: $brands-compropago-icon;     
+    color: #00aaef;
+  }
+}
+.brands-conekta-icon {
+  &:before {
+    content: $brands-conekta-icon;     
+    color: #414959;
+  }
+}
+.brands-coop-icon {
+  &:before {
+    content: $brands-coop-icon;     
+    color: #00b1e7;
+  }
+}
+.brands-coursera-icon {
+  &:before {
+    content: $brands-coursera-icon;     
+    color: #2a73cc;
+  }
+}
+.brands-css3-icon {
+  &:before {
+    content: $brands-css3-icon;     
+    color: #1572b6;
+  }
+}
+.brands-csswizardry-icon {
+  &:before {
+    content: $brands-csswizardry-icon;     
+    color: #f43059;
+  }
+}
+.brands-dailymotion-icon {
+  &:before {
+    content: $brands-dailymotion-icon;     
+    color: #0066dc;
+  }
+}
+.brands-debian-icon {
+  &:before {
+    content: $brands-debian-icon;     
+    color: #a81d33;
+  }
+}
+.brands-deezer-icon {
+  &:before {
+    content: $brands-deezer-icon;     
+    color: #00c7f2;
+  }
+}
+.brands-delicious-icon {
+  &:before {
+    content: $brands-delicious-icon;     
+    color: #39f;
+  }
+}
+.brands-designernews-icon {
+  &:before {
+    content: $brands-designernews-icon;     
+    color: #2d72d9;
+  }
+}
+.brands-deviantart-icon {
+  &:before {
+    content: $brands-deviantart-icon;     
+    color: #05cc47;
+  }
+}
+.brands-devto-icon {
+  &:before {
+    content: $brands-devto-icon; 
+  }
+}
+.brands-diaspora-icon {
+  &:before {
+    content: $brands-diaspora-icon; 
+  }
+}
+.brands-digg-icon {
+  &:before {
+    content: $brands-digg-icon; 
+  }
+}
+.brands-digitalocean-icon {
+  &:before {
+    content: $brands-digitalocean-icon;     
+    color: #0080ff;
+  }
+}
+.brands-discord-icon {
+  &:before {
+    content: $brands-discord-icon;     
+    color: #7289da;
+  }
+}
+.brands-discourse-icon {
+  &:before {
+    content: $brands-discourse-icon; 
+  }
+}
+.brands-discover-icon {
+  &:before {
+    content: $brands-discover-icon;     
+    color: #ff6000;
+  }
+}
+.brands-disqus-icon {
+  &:before {
+    content: $brands-disqus-icon;     
+    color: #2e9fff;
+  }
+}
+.brands-disroot-icon {
+  &:before {
+    content: $brands-disroot-icon;     
+    color: #50162d;
+  }
+}
+.brands-django-icon {
+  &:before {
+    content: $brands-django-icon; 
+  }
+}
+.brands-docker-icon {
+  &:before {
+    content: $brands-docker-icon;     
+    color: #1488c6;
+  }
+}
+.brands-draugiemlv-icon {
+  &:before {
+    content: $brands-draugiemlv-icon;     
+    color: #f60;
+  }
+}
+.brands-dribbble-icon {
+  &:before {
+    content: $brands-dribbble-icon;     
+    color: #ea4c89;
+  }
+}
+.brands-dropbox-icon {
+  &:before {
+    content: $brands-dropbox-icon;     
+    color: #0061ff;
+  }
+}
+.brands-drupal-icon {
+  &:before {
+    content: $brands-drupal-icon;     
+    color: #0678be;
+  }
+}
+.brands-ebay-icon {
+  &:before {
+    content: $brands-ebay-icon;     
+    color: #e53238;
+  }
+}
+.brands-ello-icon {
+  &:before {
+    content: $brands-ello-icon; 
+  }
+}
+.brands-empirekred-icon {
+  &:before {
+    content: $brands-empirekred-icon;     
+    color: #72be50;
+  }
+}
+.brands-ethereum-icon {
+  &:before {
+    content: $brands-ethereum-icon; 
+  }
+}
+.brands-etsy-icon {
+  &:before {
+    content: $brands-etsy-icon;     
+    color: #f16521;
+  }
+}
+.brands-eventbrite-icon {
+  &:before {
+    content: $brands-eventbrite-icon;     
+    color: #f6682f;
+  }
+}
+.brands-eventstore-icon {
+  &:before {
+    content: $brands-eventstore-icon;     
+    color: #5ab552;
+  }
+}
+.brands-evernote-icon {
+  &:before {
+    content: $brands-evernote-icon;     
+    color: #2dbd60;
+  }
+}
+.brands-everplaces-icon {
+  &:before {
+    content: $brands-everplaces-icon;     
+    color: #fa4b32;
+  }
+}
+.brands-facebook-icon {
+  &:before {
+    content: $brands-facebook-icon;     
+    color: #3b5998;
+  }
+}
+.brands-fandango-icon {
+  &:before {
+    content: $brands-fandango-icon;     
+    color: #ff7300;
+  }
+}
+.brands-feathub-icon {
+  &:before {
+    content: $brands-feathub-icon;     
+    color: #9b9b9b;
+  }
+}
+.brands-feedly-icon {
+  &:before {
+    content: $brands-feedly-icon;     
+    color: #2bb24c;
+  }
+}
+.brands-firebase-icon {
+  &:before {
+    content: $brands-firebase-icon;     
+    color: #ffca28;
+  }
+}
+.brands-fitbit-icon {
+  &:before {
+    content: $brands-fitbit-icon;     
+    color: #00b0b9;
+  }
+}
+.brands-flickr-icon {
+  &:before {
+    content: $brands-flickr-icon;     
+    color: #0063dc;
+  }
+}
+.brands-flipboard-icon {
+  &:before {
+    content: $brands-flipboard-icon;     
+    color: #e12828;
+  }
+}
+.brands-fnac-icon {
+  &:before {
+    content: $brands-fnac-icon;     
+    color: #e1a925;
+  }
+}
+.brands-foursquare-icon {
+  &:before {
+    content: $brands-foursquare-icon;     
+    color: #f94877;
+  }
+}
+.brands-freecodecamp-icon {
+  &:before {
+    content: $brands-freecodecamp-icon;     
+    color: #006400;
+  }
+}
+.brands-garmin-icon {
+  &:before {
+    content: $brands-garmin-icon;     
+    color: #007cc3;
+  }
+}
+.brands-gatsby-icon {
+  &:before {
+    content: $brands-gatsby-icon;     
+    color: #639;
+  }
+}
+.brands-gauges-icon {
+  &:before {
+    content: $brands-gauges-icon;     
+    color: #2fa66a;
+  }
+}
+.brands-geocaching-icon {
+  &:before {
+    content: $brands-geocaching-icon;     
+    color: #00874d;
+  }
+}
+.brands-gerrit-icon {
+  &:before {
+    content: $brands-gerrit-icon;     
+    color: #eee;
+  }
+}
+.brands-ghost-icon {
+  &:before {
+    content: $brands-ghost-icon;     
+    color: #738a94;
+  }
+}
+.brands-git-icon {
+  &:before {
+    content: $brands-git-icon;     
+    color: #f05032;
+  }
+}
+.brands-github-icon {
+  &:before {
+    content: $brands-github-icon; 
+  }
+}
+.brands-gitlab-icon {
+  &:before {
+    content: $brands-gitlab-icon;     
+    color: #e24329;
+  }
+}
+.brands-gitter-icon {
+  &:before {
+    content: $brands-gitter-icon;     
+    color: #ed1965;
+  }
+}
+.brands-glassdoor-icon {
+  &:before {
+    content: $brands-glassdoor-icon;     
+    color: #0caa41;
+  }
+}
+.brands-gmail-icon {
+  &:before {
+    content: $brands-gmail-icon;     
+    color: #d14836;
+  }
+}
+.brands-gnu-icon {
+  &:before {
+    content: $brands-gnu-icon;     
+    color: #a42e2b;
+  }
+}
+.brands-gnusocial-icon {
+  &:before {
+    content: $brands-gnusocial-icon;     
+    color: #a22430;
+  }
+}
+.brands-goldenline-icon {
+  &:before {
+    content: $brands-goldenline-icon;     
+    color: #fbbf00;
+  }
+}
+.brands-goodreads-icon {
+  &:before {
+    content: $brands-goodreads-icon;     
+    color: #630;
+  }
+}
+.brands-google-icon {
+  &:before {
+    content: $brands-google-icon;     
+    color: #4285f4;
+  }
+}
+.brands-googleallo-icon {
+  &:before {
+    content: $brands-googleallo-icon;     
+    color: #ecb842;
+  }
+}
+.brands-googleanalytics-icon {
+  &:before {
+    content: $brands-googleanalytics-icon;     
+    color: #ffc107;
+  }
+}
+.brands-googlechrome-icon {
+  &:before {
+    content: $brands-googlechrome-icon;     
+    color: #4285f4;
+  }
+}
+.brands-googledrive-icon {
+  &:before {
+    content: $brands-googledrive-icon;     
+    color: #4386fc;
+  }
+}
+.brands-googlehangouts-icon {
+  &:before {
+    content: $brands-googlehangouts-icon;     
+    color: #0c9d58;
+  }
+}
+.brands-googlekeep-icon {
+  &:before {
+    content: $brands-googlekeep-icon;     
+    color: #fb0;
+  }
+}
+.brands-googleplay-icon {
+  &:before {
+    content: $brands-googleplay-icon;     
+    color: #607d8b;
+  }
+}
+.brands-googleplus-icon {
+  &:before {
+    content: $brands-googleplus-icon;     
+    color: #dc4e41;
+  }
+}
+.brands-govuk-icon {
+  &:before {
+    content: $brands-govuk-icon;     
+    color: #005ea5;
+  }
+}
+.brands-graphcool-icon {
+  &:before {
+    content: $brands-graphcool-icon;     
+    color: #27ae60;
+  }
+}
+.brands-graphql-icon {
+  &:before {
+    content: $brands-graphql-icon;     
+    color: #e10098;
+  }
+}
+.brands-grav-icon {
+  &:before {
+    content: $brands-grav-icon; 
+  }
+}
+.brands-gravatar-icon {
+  &:before {
+    content: $brands-gravatar-icon;     
+    color: #1e8cbe;
+  }
+}
+.brands-gulp-icon {
+  &:before {
+    content: $brands-gulp-icon;     
+    color: #da4648;
+  }
+}
+.brands-gumroad-icon {
+  &:before {
+    content: $brands-gumroad-icon;     
+    color: #36a9ae;
+  }
+}
+.brands-gumtree-icon {
+  &:before {
+    content: $brands-gumtree-icon;     
+    color: #72ef36;
+  }
+}
+.brands-hackerrank-icon {
+  &:before {
+    content: $brands-hackerrank-icon;     
+    color: #2ec866;
+  }
+}
+.brands-hackster-icon {
+  &:before {
+    content: $brands-hackster-icon;     
+    color: #1bacf7;
+  }
+}
+.brands-haskell-icon {
+  &:before {
+    content: $brands-haskell-icon;     
+    color: #5d4f85;
+  }
+}
+.brands-hatenabookmark-icon {
+  &:before {
+    content: $brands-hatenabookmark-icon;     
+    color: #00a4de;
+  }
+}
+.brands-heroku-icon {
+  &:before {
+    content: $brands-heroku-icon;     
+    color: #430098;
+  }
+}
+.brands-hexo-icon {
+  &:before {
+    content: $brands-hexo-icon;     
+    color: #0e83cd;
+  }
+}
+.brands-highly-icon {
+  &:before {
+    content: $brands-highly-icon;     
+    color: #ff3c00;
+  }
+}
+.brands-hipchat-icon {
+  &:before {
+    content: $brands-hipchat-icon;     
+    color: #0052cc;
+  }
+}
+.brands-homify-icon {
+  &:before {
+    content: $brands-homify-icon;     
+    color: #7dcda3;
+  }
+}
+.brands-hootsuite-icon {
+  &:before {
+    content: $brands-hootsuite-icon; 
+  }
+}
+.brands-houzz-icon {
+  &:before {
+    content: $brands-houzz-icon;     
+    color: #7ac142;
+  }
+}
+.brands-html5-icon {
+  &:before {
+    content: $brands-html5-icon;     
+    color: #e34f26;
+  }
+}
+.brands-hulu-icon {
+  &:before {
+    content: $brands-hulu-icon;     
+    color: #3dbb3d;
+  }
+}
+.brands-humblebundle-icon {
+  &:before {
+    content: $brands-humblebundle-icon;     
+    color: #cc2929;
+  }
+}
+.brands-icq-icon {
+  &:before {
+    content: $brands-icq-icon;     
+    color: #7ebd00;
+  }
+}
+.brands-ifixit-icon {
+  &:before {
+    content: $brands-ifixit-icon;     
+    color: #0071ce;
+  }
+}
+.brands-imdb-icon {
+  &:before {
+    content: $brands-imdb-icon;     
+    color: #e6b91e;
+  }
+}
+.brands-inkscape-icon {
+  &:before {
+    content: $brands-inkscape-icon; 
+  }
+}
+.brands-instacart-icon {
+  &:before {
+    content: $brands-instacart-icon;     
+    color: #43b02a;
+  }
+}
+.brands-instagram-icon {
+  &:before {
+    content: $brands-instagram-icon;     
+    color: #e4405f;
+  }
+}
+.brands-instapaper-icon {
+  &:before {
+    content: $brands-instapaper-icon; 
+  }
+}
+.brands-intel-icon {
+  &:before {
+    content: $brands-intel-icon;     
+    color: #0071c5;
+  }
+}
+.brands-intercom-icon {
+  &:before {
+    content: $brands-intercom-icon;     
+    color: #1f8ded;
+  }
+}
+.brands-invision-icon {
+  &:before {
+    content: $brands-invision-icon;     
+    color: #f36;
+  }
+}
+.brands-javascript-icon {
+  &:before {
+    content: $brands-javascript-icon;     
+    color: #f7df1e;
+  }
+}
+.brands-jekyll-icon {
+  &:before {
+    content: $brands-jekyll-icon;     
+    color: #c00;
+  }
+}
+.brands-jenkins-icon {
+  &:before {
+    content: $brands-jenkins-icon;     
+    color: #d24939;
+  }
+}
+.brands-jira-icon {
+  &:before {
+    content: $brands-jira-icon; 
+  }
+}
+.brands-joomla-icon {
+  &:before {
+    content: $brands-joomla-icon;     
+    color: #5091cd;
+  }
+}
+.brands-jquery-icon {
+  &:before {
+    content: $brands-jquery-icon;     
+    color: #0769ad;
+  }
+}
+.brands-jsfiddle-icon {
+  &:before {
+    content: $brands-jsfiddle-icon;     
+    color: #4679a4;
+  }
+}
+.brands-json-icon {
+  &:before {
+    content: $brands-json-icon; 
+  }
+}
+.brands-justgiving-icon {
+  &:before {
+    content: $brands-justgiving-icon;     
+    color: #ad29b6;
+  }
+}
+.brands-kaggle-icon {
+  &:before {
+    content: $brands-kaggle-icon;     
+    color: #20beff;
+  }
+}
+.brands-keybase-icon {
+  &:before {
+    content: $brands-keybase-icon;     
+    color: #33a0ff;
+  }
+}
+.brands-keycdn-icon {
+  &:before {
+    content: $brands-keycdn-icon;     
+    color: #3686be;
+  }
+}
+.brands-khanacademy-icon {
+  &:before {
+    content: $brands-khanacademy-icon;     
+    color: #9db63b;
+  }
+}
+.brands-kickstarter-icon {
+  &:before {
+    content: $brands-kickstarter-icon;     
+    color: #2bde73;
+  }
+}
+.brands-kik-icon {
+  &:before {
+    content: $brands-kik-icon;     
+    color: #82bc23;
+  }
+}
+.brands-kirby-icon {
+  &:before {
+    content: $brands-kirby-icon;     
+    color: #ff0100;
+  }
+}
+.brands-klout-icon {
+  &:before {
+    content: $brands-klout-icon;     
+    color: #e44600;
+  }
+}
+.brands-known-icon {
+  &:before {
+    content: $brands-known-icon; 
+  }
+}
+.brands-koding-icon {
+  &:before {
+    content: $brands-koding-icon;     
+    color: #00b057;
+  }
+}
+.brands-lanyrd-icon {
+  &:before {
+    content: $brands-lanyrd-icon;     
+    color: #3c80ca;
+  }
+}
+.brands-laravel-icon {
+  &:before {
+    content: $brands-laravel-icon;     
+    color: #e74430;
+  }
+}
+.brands-lastfm-icon {
+  &:before {
+    content: $brands-lastfm-icon;     
+    color: #d51007;
+  }
+}
+.brands-launchpad-icon {
+  &:before {
+    content: $brands-launchpad-icon;     
+    color: #f8c300;
+  }
+}
+.brands-letterboxd-icon {
+  &:before {
+    content: $brands-letterboxd-icon;     
+    color: #00d735;
+  }
+}
+.brands-line-icon {
+  &:before {
+    content: $brands-line-icon;     
+    color: #00c300;
+  }
+}
+.brands-linewebtoon-icon {
+  &:before {
+    content: $brands-linewebtoon-icon;     
+    color: #00d564;
+  }
+}
+.brands-linkedin-icon {
+  &:before {
+    content: $brands-linkedin-icon;     
+    color: #0077b5;
+  }
+}
+.brands-linux-icon {
+  &:before {
+    content: $brands-linux-icon;     
+    color: #fcc624;
+  }
+}
+.brands-linuxfoundation-icon {
+  &:before {
+    content: $brands-linuxfoundation-icon;     
+    color: #009bee;
+  }
+}
+.brands-livejournal-icon {
+  &:before {
+    content: $brands-livejournal-icon;     
+    color: #00b0ea;
+  }
+}
+.brands-livestream-icon {
+  &:before {
+    content: $brands-livestream-icon;     
+    color: #cf202e;
+  }
+}
+.brands-macys-icon {
+  &:before {
+    content: $brands-macys-icon;     
+    color: #e21a2c;
+  }
+}
+.brands-magento-icon {
+  &:before {
+    content: $brands-magento-icon;     
+    color: #ee672f;
+  }
+}
+.brands-mailchimp-icon {
+  &:before {
+    content: $brands-mailchimp-icon;     
+    color: #239ab9;
+  }
+}
+.brands-mailru-icon {
+  &:before {
+    content: $brands-mailru-icon;     
+    color: #168de2;
+  }
+}
+.brands-makerbot-icon {
+  &:before {
+    content: $brands-makerbot-icon;     
+    color: #ff1e0d;
+  }
+}
+.brands-mastercard-icon {
+  &:before {
+    content: $brands-mastercard-icon;     
+    color: #eb001b;
+  }
+}
+.brands-mastodon-icon {
+  &:before {
+    content: $brands-mastodon-icon;     
+    color: #189efc;
+  }
+}
+.brands-matternet-icon {
+  &:before {
+    content: $brands-matternet-icon; 
+  }
+}
+.brands-mediatemple-icon {
+  &:before {
+    content: $brands-mediatemple-icon; 
+  }
+}
+.brands-medium-icon {
+  &:before {
+    content: $brands-medium-icon; 
+  }
+}
+.brands-meetup-icon {
+  &:before {
+    content: $brands-meetup-icon;     
+    color: #ed1c40;
+  }
+}
+.brands-messenger-icon {
+  &:before {
+    content: $brands-messenger-icon;     
+    color: #0084ff;
+  }
+}
+.brands-meteor-icon {
+  &:before {
+    content: $brands-meteor-icon;     
+    color: #de4f4f;
+  }
+}
+.brands-microblog-icon {
+  &:before {
+    content: $brands-microblog-icon;     
+    color: #fd8308;
+  }
+}
+.brands-microgenetics-icon {
+  &:before {
+    content: $brands-microgenetics-icon;     
+    color: #f00;
+  }
+}
+.brands-microsoft-icon {
+  &:before {
+    content: $brands-microsoft-icon;     
+    color: #666;
+  }
+}
+.brands-microsoftaccess-icon {
+  &:before {
+    content: $brands-microsoftaccess-icon;     
+    color: #ba141a;
+  }
+}
+.brands-microsoftexcel-icon {
+  &:before {
+    content: $brands-microsoftexcel-icon;     
+    color: #217346;
+  }
+}
+.brands-microsoftonenote-icon {
+  &:before {
+    content: $brands-microsoftonenote-icon;     
+    color: #80397b;
+  }
+}
+.brands-microsoftoutlook-icon {
+  &:before {
+    content: $brands-microsoftoutlook-icon;     
+    color: #0072c6;
+  }
+}
+.brands-microsoftpowerpoint-icon {
+  &:before {
+    content: $brands-microsoftpowerpoint-icon;     
+    color: #d24726;
+  }
+}
+.brands-microsoftword-icon {
+  &:before {
+    content: $brands-microsoftword-icon;     
+    color: #2b579a;
+  }
+}
+.brands-minutemailer-icon {
+  &:before {
+    content: $brands-minutemailer-icon;     
+    color: #3abfe6;
+  }
+}
+.brands-mixcloud-icon {
+  &:before {
+    content: $brands-mixcloud-icon;     
+    color: #314359;
+  }
+}
+.brands-monero-icon {
+  &:before {
+    content: $brands-monero-icon;     
+    color: #f60;
+  }
+}
+.brands-mongodb-icon {
+  &:before {
+    content: $brands-mongodb-icon;     
+    color: #47a248;
+  }
+}
+.brands-monkeytie-icon {
+  &:before {
+    content: $brands-monkeytie-icon;     
+    color: #ffc619;
+  }
+}
+.brands-monogram-icon {
+  &:before {
+    content: $brands-monogram-icon;     
+    color: #fdb22a;
+  }
+}
+.brands-moo-icon {
+  &:before {
+    content: $brands-moo-icon;     
+    color: #00945e;
+  }
+}
+.brands-mozilla-icon {
+  &:before {
+    content: $brands-mozilla-icon; 
+  }
+}
+.brands-mozillafirefox-icon {
+  &:before {
+    content: $brands-mozillafirefox-icon;     
+    color: #ff9400;
+  }
+}
+.brands-myspace-icon {
+  &:before {
+    content: $brands-myspace-icon; 
+  }
+}
+.brands-mysql-icon {
+  &:before {
+    content: $brands-mysql-icon;     
+    color: #4479a1;
+  }
+}
+.brands-neo4j-icon {
+  &:before {
+    content: $brands-neo4j-icon;     
+    color: #008cc1;
+  }
+}
+.brands-netflix-icon {
+  &:before {
+    content: $brands-netflix-icon;     
+    color: #e50914;
+  }
+}
+.brands-netlify-icon {
+  &:before {
+    content: $brands-netlify-icon;     
+    color: #00c7b7;
+  }
+}
+.brands-nextdoor-icon {
+  &:before {
+    content: $brands-nextdoor-icon;     
+    color: #00b246;
+  }
+}
+.brands-nginx-icon {
+  &:before {
+    content: $brands-nginx-icon;     
+    color: #269539;
+  }
+}
+.brands-nintendo-icon {
+  &:before {
+    content: $brands-nintendo-icon;     
+    color: #8f8f8f;
+  }
+}
+.brands-nintendogamecube-icon {
+  &:before {
+    content: $brands-nintendogamecube-icon;     
+    color: #6a5fbb;
+  }
+}
+.brands-nintendoswitch-icon {
+  &:before {
+    content: $brands-nintendoswitch-icon;     
+    color: #e60012;
+  }
+}
+.brands-nodejs-icon {
+  &:before {
+    content: $brands-nodejs-icon;     
+    color: #393;
+  }
+}
+.brands-nodemon-icon {
+  &:before {
+    content: $brands-nodemon-icon;     
+    color: #76d04b;
+  }
+}
+.brands-npm-icon {
+  &:before {
+    content: $brands-npm-icon;     
+    color: #cb3837;
+  }
+}
+.brands-nucleo-icon {
+  &:before {
+    content: $brands-nucleo-icon;     
+    color: #766dcc;
+  }
+}
+.brands-oculus-icon {
+  &:before {
+    content: $brands-oculus-icon; 
+  }
+}
+.brands-odnoklassniki-icon {
+  &:before {
+    content: $brands-odnoklassniki-icon;     
+    color: #f4731c;
+  }
+}
+.brands-onedrive-icon {
+  &:before {
+    content: $brands-onedrive-icon;     
+    color: #094ab2;
+  }
+}
+.brands-opera-icon {
+  &:before {
+    content: $brands-opera-icon;     
+    color: #ff1b2d;
+  }
+}
+.brands-origin-icon {
+  &:before {
+    content: $brands-origin-icon;     
+    color: #f56c2d;
+  }
+}
+.brands-overcast-icon {
+  &:before {
+    content: $brands-overcast-icon;     
+    color: #fc7e0f;
+  }
+}
+.brands-ovh-icon {
+  &:before {
+    content: $brands-ovh-icon;     
+    color: #123f6d;
+  }
+}
+.brands-pagekit-icon {
+  &:before {
+    content: $brands-pagekit-icon; 
+  }
+}
+.brands-pandora-icon {
+  &:before {
+    content: $brands-pandora-icon;     
+    color: #005483;
+  }
+}
+.brands-patreon-icon {
+  &:before {
+    content: $brands-patreon-icon;     
+    color: #f96854;
+  }
+}
+.brands-paypal-icon {
+  &:before {
+    content: $brands-paypal-icon;     
+    color: #00457c;
+  }
+}
+.brands-periscope-icon {
+  &:before {
+    content: $brands-periscope-icon;     
+    color: #40a4c4;
+  }
+}
+.brands-php-icon {
+  &:before {
+    content: $brands-php-icon;     
+    color: #777bb4;
+  }
+}
+.brands-picartotv-icon {
+  &:before {
+    content: $brands-picartotv-icon;     
+    color: #1da456;
+  }
+}
+.brands-pinboard-icon {
+  &:before {
+    content: $brands-pinboard-icon;     
+    color: #00f;
+  }
+}
+.brands-pingdom-icon {
+  &:before {
+    content: $brands-pingdom-icon;     
+    color: #fff000;
+  }
+}
+.brands-pingup-icon {
+  &:before {
+    content: $brands-pingup-icon;     
+    color: #00b1ab;
+  }
+}
+.brands-pinterest-icon {
+  &:before {
+    content: $brands-pinterest-icon;     
+    color: #bd081c;
+  }
+}
+.brands-plangrid-icon {
+  &:before {
+    content: $brands-plangrid-icon;     
+    color: #0085de;
+  }
+}
+.brands-playerme-icon {
+  &:before {
+    content: $brands-playerme-icon;     
+    color: #c0379a;
+  }
+}
+.brands-playstation-icon {
+  &:before {
+    content: $brands-playstation-icon;     
+    color: #003791;
+  }
+}
+.brands-playstation3-icon {
+  &:before {
+    content: $brands-playstation3-icon;     
+    color: #003791;
+  }
+}
+.brands-playstation4-icon {
+  &:before {
+    content: $brands-playstation4-icon;     
+    color: #003791;
+  }
+}
+.brands-plex-icon {
+  &:before {
+    content: $brands-plex-icon;     
+    color: #e5a00d;
+  }
+}
+.brands-pluralsight-icon {
+  &:before {
+    content: $brands-pluralsight-icon;     
+    color: #f15b2a;
+  }
+}
+.brands-plurk-icon {
+  &:before {
+    content: $brands-plurk-icon;     
+    color: #e9443d;
+  }
+}
+.brands-pocket-icon {
+  &:before {
+    content: $brands-pocket-icon;     
+    color: #ef3f56;
+  }
+}
+.brands-podcasts-icon {
+  &:before {
+    content: $brands-podcasts-icon;     
+    color: #93c;
+  }
+}
+.brands-prismic-icon {
+  &:before {
+    content: $brands-prismic-icon;     
+    color: #484a7a;
+  }
+}
+.brands-processwire-icon {
+  &:before {
+    content: $brands-processwire-icon;     
+    color: #ef145f;
+  }
+}
+.brands-producthunt-icon {
+  &:before {
+    content: $brands-producthunt-icon;     
+    color: #da552f;
+  }
+}
+.brands-protoio-icon {
+  &:before {
+    content: $brands-protoio-icon;     
+    color: #34a7c1;
+  }
+}
+.brands-protonmail-icon {
+  &:before {
+    content: $brands-protonmail-icon;     
+    color: #8b89cc;
+  }
+}
+.brands-python-icon {
+  &:before {
+    content: $brands-python-icon;     
+    color: #3776ab;
+  }
+}
+.brands-qiita-icon {
+  &:before {
+    content: $brands-qiita-icon;     
+    color: #55c500;
+  }
+}
+.brands-quantcast-icon {
+  &:before {
+    content: $brands-quantcast-icon; 
+  }
+}
+.brands-quantopian-icon {
+  &:before {
+    content: $brands-quantopian-icon;     
+    color: #c50000;
+  }
+}
+.brands-quora-icon {
+  &:before {
+    content: $brands-quora-icon;     
+    color: #b92b27;
+  }
+}
+.brands-rails-icon {
+  &:before {
+    content: $brands-rails-icon;     
+    color: #c00;
+  }
+}
+.brands-raspberrypi-icon {
+  &:before {
+    content: $brands-raspberrypi-icon;     
+    color: #c51a4a;
+  }
+}
+.brands-react-icon {
+  &:before {
+    content: $brands-react-icon;     
+    color: #61dafb;
+  }
+}
+.brands-readthedocs-icon {
+  &:before {
+    content: $brands-readthedocs-icon;     
+    color: #8ca1af;
+  }
+}
+.brands-reddit-icon {
+  &:before {
+    content: $brands-reddit-icon;     
+    color: #ff4500;
+  }
+}
+.brands-redis-icon {
+  &:before {
+    content: $brands-redis-icon;     
+    color: #d82c20;
+  }
+}
+.brands-redux-icon {
+  &:before {
+    content: $brands-redux-icon;     
+    color: #764abc;
+  }
+}
+.brands-reverbnation-icon {
+  &:before {
+    content: $brands-reverbnation-icon;     
+    color: #e43526;
+  }
+}
+.brands-roots-icon {
+  &:before {
+    content: $brands-roots-icon;     
+    color: #27ae60;
+  }
+}
+.brands-rss-icon {
+  &:before {
+    content: $brands-rss-icon;     
+    color: #ffa500;
+  }
+}
+.brands-ruby-icon {
+  &:before {
+    content: $brands-ruby-icon;     
+    color: #cc342d;
+  }
+}
+.brands-runkeeper-icon {
+  &:before {
+    content: $brands-runkeeper-icon;     
+    color: #2dc9d7;
+  }
+}
+.brands-rust-icon {
+  &:before {
+    content: $brands-rust-icon; 
+  }
+}
+.brands-salesforce-icon {
+  &:before {
+    content: $brands-salesforce-icon;     
+    color: #00a1e0;
+  }
+}
+.brands-sass-icon {
+  &:before {
+    content: $brands-sass-icon;     
+    color: #c69;
+  }
+}
+.brands-saucelabs-icon {
+  &:before {
+    content: $brands-saucelabs-icon;     
+    color: #e2231a;
+  }
+}
+.brands-scribd-icon {
+  &:before {
+    content: $brands-scribd-icon;     
+    color: #1a7bba;
+  }
+}
+.brands-sega-icon {
+  &:before {
+    content: $brands-sega-icon;     
+    color: #0089cf;
+  }
+}
+.brands-sellfy-icon {
+  &:before {
+    content: $brands-sellfy-icon;     
+    color: #21b352;
+  }
+}
+.brands-sentry-icon {
+  &:before {
+    content: $brands-sentry-icon;     
+    color: #fb4226;
+  }
+}
+.brands-serverfault-icon {
+  &:before {
+    content: $brands-serverfault-icon;     
+    color: #e7282d;
+  }
+}
+.brands-shazam-icon {
+  &:before {
+    content: $brands-shazam-icon;     
+    color: #08f;
+  }
+}
+.brands-shopify-icon {
+  &:before {
+    content: $brands-shopify-icon;     
+    color: #7ab55c;
+  }
+}
+.brands-signal-icon {
+  &:before {
+    content: $brands-signal-icon;     
+    color: #2592e9;
+  }
+}
+.brands-simpleicons-icon {
+  &:before {
+    content: $brands-simpleicons-icon; 
+  }
+}
+.brands-sinaweibo-icon {
+  &:before {
+    content: $brands-sinaweibo-icon;     
+    color: #e6162d;
+  }
+}
+.brands-sitepoint-icon {
+  &:before {
+    content: $brands-sitepoint-icon;     
+    color: #258aaf;
+  }
+}
+.brands-skyliner-icon {
+  &:before {
+    content: $brands-skyliner-icon;     
+    color: #2fcea0;
+  }
+}
+.brands-skype-icon {
+  &:before {
+    content: $brands-skype-icon;     
+    color: #00aff0;
+  }
+}
+.brands-slack-icon {
+  &:before {
+    content: $brands-slack-icon;     
+    color: #56b68b;
+  }
+}
+.brands-slashdot-icon {
+  &:before {
+    content: $brands-slashdot-icon;     
+    color: #026664;
+  }
+}
+.brands-slickpic-icon {
+  &:before {
+    content: $brands-slickpic-icon;     
+    color: #ff880f;
+  }
+}
+.brands-slides-icon {
+  &:before {
+    content: $brands-slides-icon;     
+    color: #e4637c;
+  }
+}
+.brands-smashingmagazine-icon {
+  &:before {
+    content: $brands-smashingmagazine-icon;     
+    color: #e85c33;
+  }
+}
+.brands-snapchat-icon {
+  &:before {
+    content: $brands-snapchat-icon;     
+    color: #fffc00;
+  }
+}
+.brands-sogou-icon {
+  &:before {
+    content: $brands-sogou-icon;     
+    color: #fb6022;
+  }
+}
+.brands-songkick-icon {
+  &:before {
+    content: $brands-songkick-icon;     
+    color: #f80046;
+  }
+}
+.brands-soundcloud-icon {
+  &:before {
+    content: $brands-soundcloud-icon;     
+    color: #f30;
+  }
+}
+.brands-sourceforge-icon {
+  &:before {
+    content: $brands-sourceforge-icon;     
+    color: #535353;
+  }
+}
+.brands-sparkpost-icon {
+  &:before {
+    content: $brands-sparkpost-icon;     
+    color: #fa6423;
+  }
+}
+.brands-speakerdeck-icon {
+  &:before {
+    content: $brands-speakerdeck-icon;     
+    color: #396;
+  }
+}
+.brands-spotify-icon {
+  &:before {
+    content: $brands-spotify-icon;     
+    color: #1ed760;
+  }
+}
+.brands-spotlight-icon {
+  &:before {
+    content: $brands-spotlight-icon;     
+    color: #352a71;
+  }
+}
+.brands-spreaker-icon {
+  &:before {
+    content: $brands-spreaker-icon;     
+    color: #f5c300;
+  }
+}
+.brands-squarespace-icon {
+  &:before {
+    content: $brands-squarespace-icon; 
+  }
+}
+.brands-stackexchange-icon {
+  &:before {
+    content: $brands-stackexchange-icon;     
+    color: #1e5397;
+  }
+}
+.brands-stackoverflow-icon {
+  &:before {
+    content: $brands-stackoverflow-icon;     
+    color: #fe7a16;
+  }
+}
+.brands-statamic-icon {
+  &:before {
+    content: $brands-statamic-icon; 
+  }
+}
+.brands-staticman-icon {
+  &:before {
+    content: $brands-staticman-icon; 
+  }
+}
+.brands-steam-icon {
+  &:before {
+    content: $brands-steam-icon; 
+  }
+}
+.brands-steem-icon {
+  &:before {
+    content: $brands-steem-icon;     
+    color: #4ba2f2;
+  }
+}
+.brands-stitcher-icon {
+  &:before {
+    content: $brands-stitcher-icon; 
+  }
+}
+.brands-storify-icon {
+  &:before {
+    content: $brands-storify-icon;     
+    color: #3a98d9;
+  }
+}
+.brands-strava-icon {
+  &:before {
+    content: $brands-strava-icon;     
+    color: #fc4c02;
+  }
+}
+.brands-stripe-icon {
+  &:before {
+    content: $brands-stripe-icon;     
+    color: #008cdd;
+  }
+}
+.brands-stubhub-icon {
+  &:before {
+    content: $brands-stubhub-icon;     
+    color: #003168;
+  }
+}
+.brands-stumbleupon-icon {
+  &:before {
+    content: $brands-stumbleupon-icon;     
+    color: #eb4924;
+  }
+}
+.brands-styleshare-icon {
+  &:before {
+    content: $brands-styleshare-icon; 
+  }
+}
+.brands-stylus-icon {
+  &:before {
+    content: $brands-stylus-icon; 
+  }
+}
+.brands-sublimetext-icon {
+  &:before {
+    content: $brands-sublimetext-icon; 
+  }
+}
+.brands-subversion-icon {
+  &:before {
+    content: $brands-subversion-icon;     
+    color: #809cc9;
+  }
+}
+.brands-superuser-icon {
+  &:before {
+    content: $brands-superuser-icon;     
+    color: #2eace3;
+  }
+}
+.brands-swarm-icon {
+  &:before {
+    content: $brands-swarm-icon;     
+    color: #ffa633;
+  }
+}
+.brands-swift-icon {
+  &:before {
+    content: $brands-swift-icon;     
+    color: #fa7343;
+  }
+}
+.brands-symfony-icon {
+  &:before {
+    content: $brands-symfony-icon; 
+  }
+}
+.brands-tapas-icon {
+  &:before {
+    content: $brands-tapas-icon;     
+    color: #ffce00;
+  }
+}
+.brands-ted-icon {
+  &:before {
+    content: $brands-ted-icon;     
+    color: #e62b1e;
+  }
+}
+.brands-teespring-icon {
+  &:before {
+    content: $brands-teespring-icon;     
+    color: #39ace6;
+  }
+}
+.brands-telegram-icon {
+  &:before {
+    content: $brands-telegram-icon;     
+    color: #2ca5e0;
+  }
+}
+.brands-tencentqq-icon {
+  &:before {
+    content: $brands-tencentqq-icon;     
+    color: #12b7f5;
+  }
+}
+.brands-tesla-icon {
+  &:before {
+    content: $brands-tesla-icon;     
+    color: #c00;
+  }
+}
+.brands-themighty-icon {
+  &:before {
+    content: $brands-themighty-icon;     
+    color: #d0072a;
+  }
+}
+.brands-tinder-icon {
+  &:before {
+    content: $brands-tinder-icon;     
+    color: #ff6b6b;
+  }
+}
+.brands-toggl-icon {
+  &:before {
+    content: $brands-toggl-icon;     
+    color: #e01b22;
+  }
+}
+.brands-topcoder-icon {
+  &:before {
+    content: $brands-topcoder-icon;     
+    color: #29a8e0;
+  }
+}
+.brands-toptal-icon {
+  &:before {
+    content: $brands-toptal-icon;     
+    color: #3863a0;
+  }
+}
+.brands-trakt-icon {
+  &:before {
+    content: $brands-trakt-icon;     
+    color: #ed1c24;
+  }
+}
+.brands-travisci-icon {
+  &:before {
+    content: $brands-travisci-icon;     
+    color: #39a85b;
+  }
+}
+.brands-treehouse-icon {
+  &:before {
+    content: $brands-treehouse-icon;     
+    color: #5fcf80;
+  }
+}
+.brands-trello-icon {
+  &:before {
+    content: $brands-trello-icon;     
+    color: #0079bf;
+  }
+}
+.brands-tripadvisor-icon {
+  &:before {
+    content: $brands-tripadvisor-icon;     
+    color: #00af87;
+  }
+}
+.brands-trulia-icon {
+  &:before {
+    content: $brands-trulia-icon;     
+    color: #53b50a;
+  }
+}
+.brands-tumblr-icon {
+  &:before {
+    content: $brands-tumblr-icon;     
+    color: #36465d;
+  }
+}
+.brands-twilio-icon {
+  &:before {
+    content: $brands-twilio-icon;     
+    color: #f22f46;
+  }
+}
+.brands-twitch-icon {
+  &:before {
+    content: $brands-twitch-icon;     
+    color: #6441a4;
+  }
+}
+.brands-twitter-icon {
+  &:before {
+    content: $brands-twitter-icon;     
+    color: #1da1f2;
+  }
+}
+.brands-twoo-icon {
+  &:before {
+    content: $brands-twoo-icon;     
+    color: #ff7102;
+  }
+}
+.brands-uber-icon {
+  &:before {
+    content: $brands-uber-icon; 
+  }
+}
+.brands-ubuntu-icon {
+  &:before {
+    content: $brands-ubuntu-icon;     
+    color: #e95420;
+  }
+}
+.brands-udacity-icon {
+  &:before {
+    content: $brands-udacity-icon;     
+    color: #01b3e3;
+  }
+}
+.brands-uikit-icon {
+  &:before {
+    content: $brands-uikit-icon;     
+    color: #2396f3;
+  }
+}
+.brands-umbraco-icon {
+  &:before {
+    content: $brands-umbraco-icon;     
+    color: #00bec1;
+  }
+}
+.brands-unsplash-icon {
+  &:before {
+    content: $brands-unsplash-icon; 
+  }
+}
+.brands-untappd-icon {
+  &:before {
+    content: $brands-untappd-icon;     
+    color: #ffc000;
+  }
+}
+.brands-upwork-icon {
+  &:before {
+    content: $brands-upwork-icon;     
+    color: #6fda44;
+  }
+}
+.brands-viadeo-icon {
+  &:before {
+    content: $brands-viadeo-icon;     
+    color: #f88d2d;
+  }
+}
+.brands-viber-icon {
+  &:before {
+    content: $brands-viber-icon;     
+    color: #665cac;
+  }
+}
+.brands-vim-icon {
+  &:before {
+    content: $brands-vim-icon;     
+    color: #019733;
+  }
+}
+.brands-vimeo-icon {
+  &:before {
+    content: $brands-vimeo-icon;     
+    color: #1ab7ea;
+  }
+}
+.brands-vine-icon {
+  &:before {
+    content: $brands-vine-icon;     
+    color: #11b48a;
+  }
+}
+.brands-virb-icon {
+  &:before {
+    content: $brands-virb-icon;     
+    color: #0093da;
+  }
+}
+.brands-visa-icon {
+  &:before {
+    content: $brands-visa-icon;     
+    color: #142787;
+  }
+}
+.brands-visualstudiocode-icon {
+  &:before {
+    content: $brands-visualstudiocode-icon;     
+    color: #0271bc;
+  }
+}
+.brands-vk-icon {
+  &:before {
+    content: $brands-vk-icon;     
+    color: #6383a8;
+  }
+}
+.brands-vsco-icon {
+  &:before {
+    content: $brands-vsco-icon; 
+  }
+}
+.brands-vuejs-icon {
+  &:before {
+    content: $brands-vuejs-icon;     
+    color: #4fc08d;
+  }
+}
+.brands-wattpad-icon {
+  &:before {
+    content: $brands-wattpad-icon;     
+    color: #f68d12;
+  }
+}
+.brands-webpack-icon {
+  &:before {
+    content: $brands-webpack-icon;     
+    color: #8dd6f9;
+  }
+}
+.brands-webstorm-icon {
+  &:before {
+    content: $brands-webstorm-icon;     
+    color: #00cdd7;
+  }
+}
+.brands-wechat-icon {
+  &:before {
+    content: $brands-wechat-icon;     
+    color: #7bb32e;
+  }
+}
+.brands-whatsapp-icon {
+  &:before {
+    content: $brands-whatsapp-icon;     
+    color: #25d366;
+  }
+}
+.brands-wheniwork-icon {
+  &:before {
+    content: $brands-wheniwork-icon;     
+    color: #51a33d;
+  }
+}
+.brands-wii-icon {
+  &:before {
+    content: $brands-wii-icon;     
+    color: #8b8b8b;
+  }
+}
+.brands-wiiu-icon {
+  &:before {
+    content: $brands-wiiu-icon;     
+    color: #8b8b8b;
+  }
+}
+.brands-wikipedia-icon {
+  &:before {
+    content: $brands-wikipedia-icon; 
+  }
+}
+.brands-windows-icon {
+  &:before {
+    content: $brands-windows-icon;     
+    color: #0078d6;
+  }
+}
+.brands-wire-icon {
+  &:before {
+    content: $brands-wire-icon; 
+  }
+}
+.brands-wix-icon {
+  &:before {
+    content: $brands-wix-icon;     
+    color: #faad4d;
+  }
+}
+.brands-wordpress-icon {
+  &:before {
+    content: $brands-wordpress-icon;     
+    color: #21759b;
+  }
+}
+.brands-wpengine-icon {
+  &:before {
+    content: $brands-wpengine-icon;     
+    color: #40bac8;
+  }
+}
+.brands-xbox-icon {
+  &:before {
+    content: $brands-xbox-icon;     
+    color: #107c10;
+  }
+}
+.brands-xcode-icon {
+  &:before {
+    content: $brands-xcode-icon;     
+    color: #1575f9;
+  }
+}
+.brands-xero-icon {
+  &:before {
+    content: $brands-xero-icon;     
+    color: #13b5ea;
+  }
+}
+.brands-xing-icon {
+  &:before {
+    content: $brands-xing-icon;     
+    color: #006567;
+  }
+}
+.brands-yahoo-icon {
+  &:before {
+    content: $brands-yahoo-icon;     
+    color: #409;
+  }
+}
+.brands-yammer-icon {
+  &:before {
+    content: $brands-yammer-icon;     
+    color: #0072c6;
+  }
+}
+.brands-yandex-icon {
+  &:before {
+    content: $brands-yandex-icon;     
+    color: #f00;
+  }
+}
+.brands-ycombinator-icon {
+  &:before {
+    content: $brands-ycombinator-icon;     
+    color: #f0652f;
+  }
+}
+.brands-yelp-icon {
+  &:before {
+    content: $brands-yelp-icon;     
+    color: #d32323;
+  }
+}
+.brands-youtube-icon {
+  &:before {
+    content: $brands-youtube-icon;     
+    color: #f00;
+  }
+}
+.brands-zapier-icon {
+  &:before {
+    content: $brands-zapier-icon;     
+    color: #ff4a00;
+  }
+}
+.brands-zendesk-icon {
+  &:before {
+    content: $brands-zendesk-icon; 
+  }
+}
+.brands-zerply-icon {
+  &:before {
+    content: $brands-zerply-icon;     
+    color: #9dbc7a;
+  }
+}
+.brands-zillow-icon {
+  &:before {
+    content: $brands-zillow-icon;     
+    color: #0074e4;
+  }
+}
+

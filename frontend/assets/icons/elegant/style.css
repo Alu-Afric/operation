@@ -1,0 +1,326 @@
+@font-face {
+  font-family: 'elegant';
+  src:  url('fonts/elegant.eot?i1mbse');
+  src:  url('fonts/elegant.eot?i1mbse#iefix') format('embedded-opentype'),
+    url('fonts/elegant.ttf?i1mbse') format('truetype'),
+    url('fonts/elegant.woff?i1mbse') format('woff'),
+    url('fonts/elegant.svg?i1mbse#elegant') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="elegant-"], [class*=" elegant-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'elegant' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.elegant-mobile-icon:before {
+  content: "\e000";
+}
+.elegant-laptop-icon:before {
+  content: "\e001";
+}
+.elegant-desktop-icon:before {
+  content: "\e002";
+}
+.elegant-tablet-icon:before {
+  content: "\e003";
+}
+.elegant-phone-icon:before {
+  content: "\e004";
+}
+.elegant-document-icon:before {
+  content: "\e005";
+}
+.elegant-documents-icon:before {
+  content: "\e006";
+}
+.elegant-search-icon:before {
+  content: "\e007";
+}
+.elegant-clipboard-icon:before {
+  content: "\e008";
+}
+.elegant-newspaper-icon:before {
+  content: "\e009";
+}
+.elegant-notebook-icon:before {
+  content: "\e00a";
+}
+.elegant-book-open-icon:before {
+  content: "\e00b";
+}
+.elegant-browser-icon:before {
+  content: "\e00c";
+}
+.elegant-calendar-icon:before {
+  content: "\e00d";
+}
+.elegant-presentation-icon:before {
+  content: "\e00e";
+}
+.elegant-picture-icon:before {
+  content: "\e00f";
+}
+.elegant-pictures-icon:before {
+  content: "\e010";
+}
+.elegant-video-icon:before {
+  content: "\e011";
+}
+.elegant-camera-icon:before {
+  content: "\e012";
+}
+.elegant-printer-icon:before {
+  content: "\e013";
+}
+.elegant-toolbox-icon:before {
+  content: "\e014";
+}
+.elegant-briefcase-icon:before {
+  content: "\e015";
+}
+.elegant-wallet-icon:before {
+  content: "\e016";
+}
+.elegant-gift-icon:before {
+  content: "\e017";
+}
+.elegant-bargraph-icon:before {
+  content: "\e018";
+}
+.elegant-grid-icon:before {
+  content: "\e019";
+}
+.elegant-expand-icon:before {
+  content: "\e01a";
+}
+.elegant-focus-icon:before {
+  content: "\e01b";
+}
+.elegant-edit-icon:before {
+  content: "\e01c";
+}
+.elegant-adjustments-icon:before {
+  content: "\e01d";
+}
+.elegant-ribbon-icon:before {
+  content: "\e01e";
+}
+.elegant-hourglass-icon:before {
+  content: "\e01f";
+}
+.elegant-lock-icon:before {
+  content: "\e020";
+}
+.elegant-megaphone-icon:before {
+  content: "\e021";
+}
+.elegant-shield-icon:before {
+  content: "\e022";
+}
+.elegant-trophy-icon:before {
+  content: "\e023";
+}
+.elegant-flag-icon:before {
+  content: "\e024";
+}
+.elegant-map-icon:before {
+  content: "\e025";
+}
+.elegant-puzzle-icon:before {
+  content: "\e026";
+}
+.elegant-basket-icon:before {
+  content: "\e027";
+}
+.elegant-envelope-icon:before {
+  content: "\e028";
+}
+.elegant-streetsign-icon:before {
+  content: "\e029";
+}
+.elegant-telescope-icon:before {
+  content: "\e02a";
+}
+.elegant-gears-icon:before {
+  content: "\e02b";
+}
+.elegant-key-icon:before {
+  content: "\e02c";
+}
+.elegant-paperclip-icon:before {
+  content: "\e02d";
+}
+.elegant-attachment-icon:before {
+  content: "\e02e";
+}
+.elegant-pricetags-icon:before {
+  content: "\e02f";
+}
+.elegant-lightbulb-icon:before {
+  content: "\e030";
+}
+.elegant-layers-icon:before {
+  content: "\e031";
+}
+.elegant-pencil-icon:before {
+  content: "\e032";
+}
+.elegant-tools-icon:before {
+  content: "\e033";
+}
+.elegant-tools-2-icon:before {
+  content: "\e034";
+}
+.elegant-scissors-icon:before {
+  content: "\e035";
+}
+.elegant-paintbrush-icon:before {
+  content: "\e036";
+}
+.elegant-magnifying-glass-icon:before {
+  content: "\e037";
+}
+.elegant-circle-compass-icon:before {
+  content: "\e038";
+}
+.elegant-linegraph-icon:before {
+  content: "\e039";
+}
+.elegant-mic-icon:before {
+  content: "\e03a";
+}
+.elegant-strategy-icon:before {
+  content: "\e03b";
+}
+.elegant-beaker-icon:before {
+  content: "\e03c";
+}
+.elegant-caution-icon:before {
+  content: "\e03d";
+}
+.elegant-recycle-icon:before {
+  content: "\e03e";
+}
+.elegant-anchor-icon:before {
+  content: "\e03f";
+}
+.elegant-profile-male-icon:before {
+  content: "\e040";
+}
+.elegant-profile-female-icon:before {
+  content: "\e041";
+}
+.elegant-bike-icon:before {
+  content: "\e042";
+}
+.elegant-wine-icon:before {
+  content: "\e043";
+}
+.elegant-hotairballoon-icon:before {
+  content: "\e044";
+}
+.elegant-globe-icon:before {
+  content: "\e045";
+}
+.elegant-genius-icon:before {
+  content: "\e046";
+}
+.elegant-map-pin-icon:before {
+  content: "\e047";
+}
+.elegant-dial-icon:before {
+  content: "\e048";
+}
+.elegant-chat-icon:before {
+  content: "\e049";
+}
+.elegant-heart-icon:before {
+  content: "\e04a";
+}
+.elegant-cloud-icon:before {
+  content: "\e04b";
+}
+.elegant-upload-icon:before {
+  content: "\e04c";
+}
+.elegant-download-icon:before {
+  content: "\e04d";
+}
+.elegant-target-icon:before {
+  content: "\e04e";
+}
+.elegant-hazardous-icon:before {
+  content: "\e04f";
+}
+.elegant-piechart-icon:before {
+  content: "\e050";
+}
+.elegant-speedometer-icon:before {
+  content: "\e051";
+}
+.elegant-global-icon:before {
+  content: "\e052";
+}
+.elegant-compass-icon:before {
+  content: "\e053";
+}
+.elegant-lifesaver-icon:before {
+  content: "\e054";
+}
+.elegant-clock-icon:before {
+  content: "\e055";
+}
+.elegant-aperture-icon:before {
+  content: "\e056";
+}
+.elegant-quote-icon:before {
+  content: "\e057";
+}
+.elegant-scope-icon:before {
+  content: "\e058";
+}
+.elegant-alarmclock-icon:before {
+  content: "\e059";
+}
+.elegant-refresh-icon:before {
+  content: "\e05a";
+}
+.elegant-happy-icon:before {
+  content: "\e05b";
+}
+.elegant-sad-icon:before {
+  content: "\e05c";
+}
+.elegant-facebook-icon:before {
+  content: "\e05d";
+}
+.elegant-twitter-icon:before {
+  content: "\e05e";
+}
+.elegant-googleplus-icon:before {
+  content: "\e05f";
+}
+.elegant-rss-icon:before {
+  content: "\e060";
+}
+.elegant-tumblr-icon:before {
+  content: "\e061";
+}
+.elegant-linkedin-icon:before {
+  content: "\e062";
+}
+.elegant-dribbble-icon:before {
+  content: "\e063";
+}
