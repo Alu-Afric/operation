@@ -27,7 +27,7 @@ Mongo Database
 Apache Server
 ```
 
-### Installing
+### Installing The Apps
 
 Using NPM, install both ``` /frontend ``` and ``` /backend ``` using
 
