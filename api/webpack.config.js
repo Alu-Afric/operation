@@ -40,6 +40,12 @@ module.exports = {
     
         ]
       },
+      resolve: {
+        alias: {
+          Routes: path.resolve(__dirname, 'src/routes/'),
+          Models: path.resolve(__dirname, 'src/models/'),
+        }
+      },
       plugins : [
         new MiniCssExtractPlugin({
             // Options similar to the same options in webpackOptions.output

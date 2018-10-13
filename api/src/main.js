@@ -4,7 +4,8 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
 //Routes
-import userRouter from '~/routes/userRouter';
+var path = require('path');
+require('Routes/userRouter');
 app.use('/app/models/users', userRouter);
 //app.use(cors);
  // support json encoded bodies
