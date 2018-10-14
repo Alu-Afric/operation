@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        FUE - 2018
+        Alu-Afric
       </h1>
       <h2 
         class="subtitle" 

@@ -4,16 +4,16 @@
       <div class="row">
         
       
-    <img alt="Vue logo" class="animated infinite pulse bounds-1" width="10%"  src="~/assets/img/fue.png">
-       <p class="center" style="font-size : 30px">Future University in Egypt</p>
+    <img alt="Vue logo" class="animated infinite pulse centerized" width="10%"  src="~/assets/img/aluu.png">
+       <p class="center" style="font-size : 30px">Alu Afric</p>
+       <h5 class="center">For Aluminum Industry & Trading</h5>
 
       <div class="row" >
         <div class="col s5" style="padding-top : 100px;">
-          <el-input v-model="input.name" class="bounds-1" placeholder="Name" />
-          <el-input v-model="input.email" class="bounds-1" placeholder="Email" />
-   
-          <el-input v-model="input.password" class="bounds-1" placeholder="Password" type="password" />
-          <el-button style="margin-top : 5%; margin-left : 40%;" class="push-s4" @click="register">Register</el-button>
+          <el-input v-model="input.name" class="bounds-1 col push-s9" placeholder="Name" />
+          <el-input v-model="input.email" class="bounds-1 col push-s9" placeholder="Email" />
+          <el-input v-model="input.password" class="bounds-1 col push-s9" placeholder="Password" type="password" />
+          <el-button style="margin-top : 5%; margin-left : 115%;" class="" @click="register">Register</el-button>
 
         </div>
        
