@@ -42,8 +42,9 @@ module.exports = {
       },
       resolve: {
         alias: {
-          Routes: path.resolve(__dirname, 'src/routes/'),
-          Models: path.resolve(__dirname, 'src/models/'),
+          Routes: path.resolve(__dirname, './routes/'),
+          Controllers: path.resolve(__dirname, './controllers/'),
+          Models: path.resolve(__dirname, './models/'),
         }
       },
       plugins : [
@@ -55,4 +56,8 @@ module.exports = {
           })
       ],
       "target": "node",
+      node: {
+       morgan: 
+        "empty"
+         }
 }   

@@ -48,7 +48,7 @@ export default {
       const vm = this
       this.$axios({
         method: 'post',
-        url: 'http://127.0.0.1:3000/models/users',
+        url: 'http://127.0.0.1:3000/users/signup',
         data: vm.input
       }).then(response => {
         if (response.data === 'done') {
